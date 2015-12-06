@@ -11,6 +11,20 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
+
+
+    'aliases' => array(
+        'comments' => realpath(dirname(__FILE__) . '/../..') . '/vendor/pendalf89/yii-commentator/',
+    ),
+    'modules'=>array(
+        'comments' => array(
+            'class' => 'pendalf89\yii_commentator\CommentsModule',
+            'userModelClass' => '',
+            'isSuperuser' => '!Yii::app()->user->isGuest',
+        ),
+    ),
+
+
     'components' => [
         /*'user' => [
             'identityClass' => 'common\models\User',
@@ -33,8 +47,8 @@ return [
         'view' => [
             'theme' => [
                 'pathMap' => [
-                    '@frontend/views' => '@frontend/themes/football/views',
-                    '@frontend/modules' => '@frontend/themes/football/modules',
+                    '@frontend/views' => '@frontend/themes/futbol/views',
+                    '@frontend/modules' => '@frontend/themes/futbol/modules',
 //                    '@frontend/modules' => '@frontend/themes/yamnik/modules'
 //                    '@app/views' => '@app/themes/site/views',
                     //'@frontend/views' => '@frontend/themes/admin/views',

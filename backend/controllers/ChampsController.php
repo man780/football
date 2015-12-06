@@ -31,7 +31,7 @@ class ChampsController extends Controller
                         'roles' => ['moderator'],
                     ],
                     [
-                        'actions' => ['delete'],
+                        'actions' => ['delete', 'excel'],
                         'allow' => true,
                         'roles' => ['admin'],
                     ],
@@ -98,6 +98,8 @@ class ChampsController extends Controller
             ]);
         }
     }
+
+
 
     /**
      * Updates an existing Champs model.

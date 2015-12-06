@@ -1,0 +1,170 @@
+.vcbar a:hover/* , .outli a:hover */, .moreWin a:hover,  p.botParInUsName a:hover, .infcClubWind p a:hover, .UserMenuDiv:hover .more, /* .UserMenuDiv */ .hoverLink a:hover{
+	color:#00ccff;
+}
+#nav div.activeli a{
+	//position: relative;
+}
+#nav div.activeli a div{
+	//position:absolute;
+	//top:7px !important;
+}
+html* #nav{
+    position:static;
+}
+html* .ieras{
+	width:2px;
+	height:9px;
+	background:url(../img/cenarbg.png) repeat-x;
+	position:absolute;
+	right:4px;
+	top:0;
+}
+
+html* #nav div.firstnav a{
+	padding-left:2px;
+	margin-right:58px;
+}
+.cenarbg{
+	//width:20px;
+}
+.reparrt{
+	//margin-right:3px;
+	//margin-left:23px;
+}
+html* .massan{
+	max-width:450px;
+	position:relative;
+}
+.reparrt{
+	margin-right:3px\0/;
+	margin-left:37px\0/;
+}
+.activeli{
+	//z-index:1;
+}
+
+html* .activeli a{
+	padding-right:25px;
+}
+html* .settingmenu li{
+    width:150px;
+    overflow:hidden;
+}
+html* .settingmenu a{
+    padding-left:0;
+}
+html* .settingmenu b {
+	width:0;
+    height:0;
+}
+html* .settingmenu{
+	z-index:999;
+}
+html* .settingmenu .reparrt{
+	margin:0;
+}
+#maincontent{
+	z-index:-1;
+}
+
+html* #content{
+	margin-top:40px;
+}
+
+html* .forIeblock{
+	width:2px;
+	height:9px;
+	background:url(../img/cenarbg.png) repeat-x;
+	position:absolute;
+	right:4px;
+	top:0;
+}
+html* .botCenterLine{
+	position:relative;
+	left:-1px;
+}
+html* .forIeblockBot{
+	width:2px;
+	height:3px;
+	background:url(../img/botCenterLine.png) repeat-x;
+	position:absolute;
+	right:4px;
+	bottom:0;	
+}
+html* .arrowNowOnIn{
+	bottom:-7px;
+}
+:root .NBcontentIn{
+	height:68px;
+}
+html* .galka{
+	z-index:-1;
+}
+html* .agre{
+	position:relative;
+	top:-19px;
+}
+html* .arrOne{
+	display:none;
+}
+.radioButagre, .sostavUlPlus{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+html* .USnameInLF{
+	padding:5px 5px 5px 0;
+}
+html* .chatOut{
+	position:relative;
+	left:225px;
+	margin-left:0;
+}
+.masComOutBlue{
+	background:#e5f2ff;
+}
+html* .downlast{
+	width:71%;
+}
+html* .downlastTCI{
+	position:static;
+	margin:0;
+	width:736px;
+}
+html* .downlastCom{
+	width:75%;
+}
+html* .inSoob{top:171px}
+html* .dottedLinkinC{
+	float:left;
+}/* 
+html* .userName{
+	float:left;
+} */
+html* .ieZ1{
+	z-index:1 !important;
+}
+html* .ieZ2{
+	z-index:2 !important;
+}
+html* .ieZ3{
+	z-index:3;
+}
+html* .searchVid input.searchImg{
+	right:10px;
+}
+.UserProfileIn{
+	border-left:1px solid #5c626a;
+	border-top:1px solid #5c626a;
+}
+.home_footer > ul > li > b{
+	filter:alpha(opacity:30);
+}
+.regisHide{
+	filter:alpha(opacity:90);	
+}
+html* .regis_wind > div  > h5 > p{
+	font-size:11px;
+}
+html* .regis_wind > div > a{
+	margin: 92px 1px 1px 655px;
+}

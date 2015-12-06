@@ -106,6 +106,7 @@ class NewsController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
+            $model->date = date('d.m.Y', $model->date);
             return $this->render('update', [
                 'model' => $model,
                 'champsList' => Champs::find()->all(),

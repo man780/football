@@ -13,6 +13,9 @@ return [
     'bootstrap' => ['log'],
     'language'=>'ru',
     'modules' => [
+        /*'user' => [
+            'class' => 'dektrium\user\Module',
+        ],*/
 
     ],
     'components' => [

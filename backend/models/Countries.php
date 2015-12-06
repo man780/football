@@ -8,8 +8,7 @@ use Yii;
  * This is the model class for table "f_countries".
  *
  * @property integer $id
- * @property integer $id_champ
- * @property integer $name
+ * @property string $name
  * @property integer $img
  */
 class Countries extends \yii\db\ActiveRecord
@@ -28,8 +27,9 @@ class Countries extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_champ', 'name', 'img'], 'integer'],
-            [['name'], 'required']
+            [['name'], 'required'],
+            [['img'], 'integer'],
+            [['name'], 'string', 'max' => 255]
         ];
     }
 
@@ -40,9 +40,8 @@ class Countries extends \yii\db\ActiveRecord
     {
         return [
             'id' => Yii::t('app', 'ID'),
-            'id_champ' => Yii::t('app', 'Champs'),
-            'name' => Yii::t('app', 'Naming'),
-            'img' => Yii::t('app', 'Photo'),
+            'name' => Yii::t('app', 'Name'),
+            'img' => Yii::t('app', 'Img'),
         ];
     }
 }

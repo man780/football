@@ -71,6 +71,36 @@ class ClubsController extends Controller
         }
     }
 
+    public function actionExcel()
+    {
+        //echo (is_file(Yii::$app->getBasePath().'/../clubs.xlsx')?"ura":'-=---');
+        $objPHPExcel = \PHPExcel_IOFactory::load(Yii::$app->getBasePath().'/../clubs.xlsx');
+        $sheetData = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
+        foreach($sheetData as $club){
+            $clubModel = new Clubs();
+            $clubModel->id_country = 1;
+            $clubModel->name = $club['A'];
+            $clubModel->city = $club['B'];
+            $clubModel->status = 1;
+            if($clubModel->save()){
+                $id_club = $clubModel->primaryKey;
+                $stadionsModel = new \backend\models\Stadions();
+                $stadionsModel->id_team = $id_club;
+                $stadionsModel->city = $clubModel->city;
+                $stadionsModel->id_country = 1;
+                $stadionsModel->name = $club['C'];
+                $stadionsModel->capacity = intval($club['D']);
+                if(!$stadionsModel->save()){
+                    vd($stadionsModel->getErrors());
+                }
+            }
+            vd($clubModel->attributes, false);
+            vd($stadionsModel->attributes, false);
+            //echo $club['A'];
+        }
+
+    }
+
     /**
      * Updates an existing Clubs model.
      * If update is successful, the browser will be redirected to the 'view' page.

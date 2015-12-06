@@ -12,7 +12,7 @@ use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-use backend\models\Champs;
+use backend\models\News;
 /**
  * Site controller
  */
@@ -67,11 +67,12 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        $champ = Champs::getChamp(1);
-        $listChamps = Champs::find()->all();
+        //$champ = Champs::getChamp(1);
+        $listNews = News::getLast3News();
+        $layoutPath = Yii::$app->assetManager->getPublishedUrl('@frontend/themes/futbol/assets');
         return $this->render('index', [
-            'champ'=>$champ->name,
-            'listChamps' => $listChamps
+            'layoutPath'=>$layoutPath,
+            'listNews' => $listNews
         ]);
     }
 

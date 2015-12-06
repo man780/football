@@ -1,0 +1,487 @@
+@import url(reset.css);
+#container{
+	background: #369;
+	min-width: 1024px;
+	overflow:hidden;
+}
+#header{
+	height:60px;
+	background: url(../img/headbg.png) repeat-x;
+	width: 100%;	
+}
+.headinimg{
+	height: 100%;
+	background: url(../img/headinimg.png) no-repeat center top;
+}
+a:hover{
+	text-decoration:none;
+}
+.hint, .hint b{
+	position:absolute;
+}
+.hint{
+	display:none;
+	height:21px;
+	background:url(../img/anibackbg.png);
+	font:11px/20px Arial, sans-serif;
+	color:#ffffff;
+	padding:0 5px;
+	border-radius:3px;
+}
+.hint b{
+	height:5px;
+	width:100%;
+	background:url(../img/hint.png) no-repeat center top;
+	top:-5px;
+	left:0;
+}
+.avatar{
+	display:block;
+	width:42px;
+	height:42px;
+	border:3px solid #2b3137;
+	border-radius:4px;
+	box-shadow:1px 1px 0 rgba(255, 255, 255, 0.2);
+}
+/*Навигация*/
+#nav{
+	height: 30px;
+	background: url(../img/navbg.png) repeat-x;
+    z-index:1;
+}
+.innav{	
+	width:1024px;
+	margin: auto;
+}
+.outul{
+	height: 30px;
+	padding-top: 2px;
+	float:right;
+}
+
+	
+.outul .outli{
+	padding-right:3px;
+	height: 28px;
+	float:left;
+	background: url(../img/navliplash.png) no-repeat 100% 0;
+}
+.outli a{
+	display:block;
+	font:11px/26px Arial, sans-serif;
+	color:#fff;
+	height: 26px;
+	padding:0 15px;
+	text-decoration: none;
+}
+.outli .vcbar a{
+	font:12px/26px Arial, sans-serif;
+}
+.outli div.arrowbot{
+	display: inline-block;
+	width: 13px;
+	height: 10px;
+	background: url(../img/navarr.png) no-repeat;
+	position: relative;
+	top:1px;
+}
+
+#nav div.firstnav a{
+	padding-left:2px;
+	margin-right:32px;
+	position: relative;
+	z-index:999;
+}
+#nav div.firstnav a img{
+	position: relative;
+	top:1px;
+	right:5px;
+}
+.endnav .inbut{
+	margin-top: 1px;
+	position: relative;
+	overflow: hidden;
+}
+.endnav input{
+	margin-left:60px;
+	width: 220px;
+	height:21px;
+	background:url(../img/navinputbg.png) no-repeat 0 0;
+	border:none;
+	outline:0;
+	padding:0 16px 0 8px;
+	font:12px/21px Arial, sans-serif;
+	color:#9d9d9d;
+	overflow:hidden;
+}
+.endnav button{
+	background:url(../img/searchicon.png) no-repeat 0 0;
+	border:none;
+	outline:0;
+	cursor:pointer;
+	position: absolute;
+	top:6px;
+	right:5px;
+	width:10px;
+	height:10px;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+}
+/*Всплыв окна*/
+.vcbar{
+	display:none;
+	margin-top:9px;
+	position: absolute;
+	white-space: nowrap;
+	padding:5px 5px;
+	background:url(../img/navwsbg.png);
+	border:1px solid #1f242b;
+	border-top:none;
+	border-radius:0 0 3px 3px;
+	
+}
+.vcbar a{
+	padding:0 5px;
+	width:100%;
+}
+.settingmenu b{
+	padding:0 0 !important;
+}
+.endnav img{
+	position: relative;
+	top:4px;
+	left:1px;
+	
+}
+.vcbar li{
+	background:url(../img/divlibotbg.png) repeat-x center bottom;
+}
+.toplinavar, .starr, .rigarrbg, .cenarbg, .mainar, .reparrt,.endarr{	
+	height:9px;
+}
+.toplinavar{
+	width:100%;	
+	position:absolute;
+	left:0;
+	top:-9px;
+}
+.starr{
+	position: relative;
+	left:-1px;
+	width:5px;
+	float:left;
+	background:url(../img/leftandrightug.png) no-repeat;
+}
+.cenarbg{
+	position: relative;
+	left:-1px;
+	width:50px;
+	float:left;
+	background:url(../img/cenarbg.png) repeat-x;
+	
+}
+.poneus{
+	width:125px;
+}
+.mainar{
+	position: relative;
+	left:-1px;
+	width:12px;
+	float:left;
+	background:url(../img/cwnarr.png) no-repeat;
+}
+.reparrt{	
+	position: relative;
+	left:-1px;
+	margin-right:3px;
+	background:url(../img/cenarbg.png) repeat-x;
+}
+.endarr{
+	position: relative;
+	right:-1px;
+	width:5px;
+	float:right;
+	background:url(../img/leftandrightug.png) no-repeat 100% 0;	
+}
+/*конец Всплыв окнон*/
+/*after nav*/
+
+#afternav{
+	height:75px;
+	background:url(../img/afternav.png) repeat-x;
+	position: relative; 
+}
+.inafternav{	
+	position: relative;
+	width:1024px;
+	margin:auto;
+}
+.logo{
+	position:absolute;
+	top:-30px;
+	left:-10px;
+	z-index:1;
+	width:223px;
+	height:107px;
+	background:url(../img/logofutuz.png) no-repeat 0 0;
+}
+.logo:hover{
+	background-position:-223px 0;
+}
+.toolbar{
+	height:75px;
+	width:1024px;
+	position:absolute;
+	right:3px;
+}
+.barone{
+	width:100px;
+	float:right;
+	background: url(../img/bgblall.png) no-repeat center 8px;
+	text-align:center;
+	font:11px Arial, sans-seirf;
+	color:#fff;
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.3);
+	position:relative;
+}
+.endcom{
+	width:290px;
+	float:right;
+	
+}
+.krn{
+	display:block;
+	height:55px;
+	width:45px;
+	margin:auto;
+	background: url(../img/sritetoolbar.png) no-repeat 0 0;
+	position: relative;
+}
+.krugxd{
+	position:absolute;
+	width:23px;
+	height:24px;
+	top:5px;
+	right: -10px;
+	background: url(../img/sritetoolbar.png) no-repeat 0 -108px;
+	font:11px/22px Arial, sans-seirf;
+	color:#fff;
+	cursor:pointer;
+	text-indent:-1.5px;
+	text-decoration:none;
+	border:0;
+	outline:0;
+}
+.marka{
+	background-position:-158px 10px;	
+}
+.marka:hover{
+	background-position:-158px -46px;	
+}
+.guesa{
+	background-position:-117px 10px;	
+}
+.guesa:hover{
+	background-position:-117px -46px;	
+}
+.uva{
+	background-position:-77px 10px;	
+}
+.uva:hover{
+	background-position:-77px -46px;	
+}
+
+.comma{
+	background-position:-38px 10px;	
+}
+.comma:hover{
+	background-position:-38px -46px;	
+}
+.massa{
+	background-position:4px 10px;	
+}
+.massa:hover{
+	background-position:4px -46px;	
+}
+
+
+
+
+
+/*end after nav*/
+.akkinfo{
+	position:relative;
+	top:11px;
+	float:right;
+}
+.topinfo{
+	height:50px;
+}
+.topava{
+	position:absolute;	
+}
+.userpanelt{
+	height:48px;
+	width:190px;
+	background:url("../img/infobg.png") repeat 0 0;
+	margin-left:52px;
+	border-radius:4px;
+	box-shadow:1px 1px 0 rgba(255, 255, 255, 0.2);
+	position:relative;
+}
+.ratiot, .statust{
+	width:85px;
+	height:24px;
+	float:left;
+	overflow:hidden;
+	font:11px/24px Arial, sans-serif;
+	text-align:center;
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+.ratiot{
+	border-radius:3px 0 0 0;
+	padding-right:10px;
+}
+.statust{
+	border-radius:0 3px 0 0;
+	padding-left:10px;
+}
+.ratiot{	
+	background:url("../img/ratiobg.png") repeat 0 0;
+	color:#fff;
+}
+.statust{	
+	background:url("../img/statusbg.png") repeat 0 0;
+	color:#33baff;
+}
+.statrangt{
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:122px;
+	top:-10px;
+	background: url(../img/sritetoolbar.png) no-repeat -160px -111px;
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+.mynamet{
+	clear:both;
+	font:11px/24px Arial, sans-serif;
+	color:#fff;
+	white-space: nowrap;
+	padding:0 5px;
+	position: relative;
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+.mynamet p{
+	font:12px/24px Arial, sans-serif;
+	overflow:hidden;
+	position:relative;
+	width:100px;
+}
+.settingst{
+	display:block;
+	width:38px;
+	height:25px;
+	background: url(../img/sritetoolbar.png) no-repeat -32px -102px;
+	position:absolute;
+	right:45px;
+	top:0;
+	cursor: pointer;
+}
+.settingst a{
+	font:12px Arial, sans-serif;
+	color:#fff;
+	text-decoration:none;
+}
+.settingst:hover{
+	background: url(../img/sritetoolbar.png) no-repeat -32px -127px;
+}
+.settingmenu{
+	top:24px;
+	left:-105px;
+	width:177px;
+}
+.settingmenu .reparrt{
+	margin-left:142px;
+}
+.settingmenu a{
+	padding-left:25px;
+	position:relative;
+	margin-left:5px;
+}
+.addava{
+	width:30px;
+	height:20px;
+	background:#fff;
+	position:absolute;
+	background:url(../img/spritetwo.png) no-repeat 3px 0;
+}
+.sptwt b{
+	background-position:3px -22px;
+}
+.sptwf b{
+	background-position:3px -45px;
+}
+.sptwfr b{
+	background-position:3px -65px;
+}
+
+
+.pereg{
+	position:absolute;
+	right:40px;
+	top:0;
+	width:3px;
+	height:24px;
+	background: url(../img/sritetoolbar.png) no-repeat -146px -119px;
+}
+.exitt{
+	width:30px;
+	height:22px;
+	position:absolute;
+	right:2px;
+	top:0;
+	background:url(../img/sritetoolbar.png) no-repeat -83px -102px;
+	cursor: pointer;
+}
+.exitt:hover{
+	background-position: -83px -127px;
+}
+.exitt .hint{
+	top:30px;
+	left:-10px;
+}
+.exitt:hover .hint{
+	display:block;
+}
+
+/*Hover*/
+
+#nav div.firstnav a:hover, #nav div.endnav,#nav .vcbar .endnav,#nav .vcbar a:hover, .endnav{
+	background: none !important;	 
+}
+.vcbar a:hover, .firstnav a:hover{
+	text-shadow:0 0 4px #00ccff, 0 0 5px #00ccff, 0 0 3px #00ccff;
+}
+
+.outli a:hover{
+	background: url(../img/headbgahov.png) repeat-x;
+}/* 
+.outli a:hover div.arrowbot{
+	background: url(../img/navarrh.png) no-repeat;
+} */
+#nav div.firstnav a:hover img{
+	box-shadow:0 0 4px #00ccff,inset 0 0 10px #00ccff, 0 0 3px #00ccff; 
+}
+.activeli:hover .vcbar{
+	display:block;
+	z-index:1;
+}
+
+#activeshad{
+	background: url(../img/headbgahov.png) repeat-x;
+}
+/*hover*/
+
+/*конец верхних блоко начало онсновного с контентом*/

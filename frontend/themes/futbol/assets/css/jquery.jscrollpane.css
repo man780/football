@@ -1,0 +1,113 @@
+.jspContainer{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane{
+	position: absolute;
+}
+/* вертикальная полоса прокрутки */
+.FriendScroll .jspVerticalBar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 9px;
+	height: 100%;
+	background: none;
+}
+
+.inWinL .FriendScroll .jspVerticalBar{
+	width: 16px;
+}
+/* горизонтальная полоса прокрутки */
+.jspHorizontalBar{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: none;
+}
+
+.jspVerticalBar *, .jspHorizontalBar *{
+	margin: 0;
+	padding: 0;
+}
+.jspCap{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap{
+	float: left;
+}
+/* полоска, по которой бегает ползунок */
+.FriendScroll .jspTrack{
+	background: url(../img/scrollBgFriend.png) repeat-y center 0;
+	position: relative;
+}
+.inWinL .FriendScroll .jspTrack{
+	background: url(../img/scrollBgFriendinwill.png) repeat-y center 0;
+	position: relative;
+}
+/* сам ползунок */
+.FriendScroll .jspDrag{
+	background: url(../img/spritethree.png) -264px -1px;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.inWinL  .FriendScroll .jspDrag{
+	background: url(../img/spritethree.png) -383px -55px;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag{
+	float: left;
+	height: 100%;
+}
+/* стрелки для прокрутки */
+.jspArrow{
+	background: #ccc;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+/* стили для неактивной стрелки */
+.jspArrow.jspDisabled{
+	cursor: default;
+	background: #80808d;
+}
+/* этими правилами можно задать различные стили для вертикальных и горизонтальных стрелок */
+.FriendScroll .jspVerticalBar .jspArrow{
+	height: 5px;
+	background:url(../img/sctab.png) no-repeat center 0;
+}
+.inWinL  .FriendScroll .jspVerticalBar .jspArrow{
+	height: 5px;
+	background:url(../img/spritethree.png) no-repeat -276px -55px;
+}
+.jspHorizontalBar .jspArrow{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus{
+	outline: none;
+}
+/* стили для уголка - квадратной зоны где сходятся полосы прокрутки */
+.jspCorner{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* кроме того можно задать стили для каждой стрелки отдельно (этих правил изначально в jquery.jscrollpane.css нет!) */
+	.jspArrowUp {}
+	.FriendScroll .jspVerticalBar .jspArrowDown {background-position:center -5px;}
+	.inWinL .FriendScroll .jspVerticalBar .jspArrowDown {background-position:-276px -60px;}
+	.jspArrowLeft {}
+	.jspArrowRight {}

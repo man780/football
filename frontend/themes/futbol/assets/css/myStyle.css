@@ -1,0 +1,3842 @@
+@import url(style.css);
+
+.bgnone{
+	background:none;
+}
+li.endUserMenu, .infcClubWind a, .Fcright a{
+	background:none;
+}
+.FcPanelWinClub, .UsNameAndFc{
+	box-shadow:1px 1px 0 rgba(255, 255, 255, 0.2);
+}
+.infcClubWind a, .agre p, .LDVspan{
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.outli a, .funclubis, .invClub, .ConectClub{
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+.UserMenuLink, .UserProfileIn{
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.7);
+}
+.endnav .inbut{
+	overflow:visible;
+}
+.leftpar,.rightpar, .leftpar a, .navInBlock, .botParInUsName, .themsZag a, .themsContent, .ThemsLink a, .addBlurb a, .UserMenuDivPlash, .date, .NBcontentIn p, .TableInFix, .publish, .addPhoto, .agre p, .errorLinks, .tapeNewsInUl, .dAB, .dAB a, .exitAllCom a, .cagr, .dopMenu, .cagrM, .cagrNull{
+	font:11px Arial,Sans-serif;	
+}
+.fcZag a,#container   .FcPanelWinClub a, .conmas, .nowOnIn, .endNowBlock a, .UserMenuLink, .NBZag a, .NBH3 a, .LMli div, .masLoader, .LDVspan, .orInVideo, .UsName, .UsNameOut, .footer, .sobInTopPlash, .UsNandC, .downlast, .userName a, .mainco, .countfile, .massNowIn, .undN, .conen, .conMCT, .dopMenu, .flaPl, .funclubis + span, .admClub ul li h6, .afterImage, .searchVid input, .vidUl, .albVid a, .phAlb li > img + a, .UserProfileIn p, .UserProfileIn ul li a{
+	font:12px Arial,Sans-serif;	
+}
+.mitZag, .nowOnZag, .NBZag h2, .hideBlock h2, .topPan h2, .UserProfileIn h2{
+	font:16px Arial, sans-serif;
+	color:#474747;
+}
+.leftpar a, .ommentsMitting a, .endNowBlock a,#container .themsZag a, .addBlurb a,  .NBZag a, .ansCom{
+	color: #01699f;		
+}
+.moreWin a:hover, p.botParInUsName a:hover, .infcClubWind p a:hover, .UserMenuDiv:hover .more, .hoverLink a:hover{
+	text-shadow:0 0 4px #00ccff, 0 0 5px #00ccff, 0 0 3px #00ccff;
+}
+.bgchange, .infcClubWind, .userStatsOut, .NBswitchPanel, .UserProfile, .UserProfileIAva{
+	border-radius:3px;
+}
+.fcZag a,#container   .FcPanelWinClub a, .themsZag a, .ThemsLink a, .addBlurb a{
+	color:#33baff;
+	text-decoration:none;
+}
+.addBlurb a{	color: #01699f;	}
+.fcZag a:hover,#container  .FcPanelWinClub a:hover, .themsZag a:hover, .ThemsLink a:hover, .addBlurb a:hover{
+	text-decoration:underline;
+}
+.dottedLink, .dottedLinkinC{
+	text-decoration:none;
+	border-bottom:1px dotted #000;
+}
+.dottedLink:hover, .dottedLinkinC:hover{
+	border-bottom:none;
+}
+.navInBlock p,.bgchange, .cool, .shst, .see, .comlike, #closet{
+	cursor:pointer;
+}
+.dottedLink{
+	text-decoration:none;
+	border-bottom:1px dotted #000;
+}
+.dottedLink:hover{
+	border-bottom:none;
+}
+.userName{
+	position:relative;
+	display:inline-block;
+}
+.userName:hover .userStatsOut{
+	display:block;
+}
+.decUn{
+	color:#01699F !important;
+}
+.decUn:hover{
+	text-decoration:underline;
+}
+.userStatsOut{
+	z-index:999;
+	display:none;
+	position:absolute;
+	top:20px;
+	left:0;
+	width:190px;
+	height:98px;
+	padding:5px;
+	background:url(../img/infcClubWindBg.png) repeat scroll 0 0 transparent;
+}
+
+.botParInUsName{
+	line-height:20px;
+	text-align:center;
+}
+.userstats{
+	height:78px;
+}
+.UsNameAndFc{
+	float:right;
+	width:137px;
+	height:47px;
+	border-radius:3px;
+	background:url(../img/infobg.png) repeat scroll 0 0 transparent;
+}
+.YourName, .FCclubName{
+	position:relative;
+	padding:0 5px;
+}
+.YourName{border-bottom:1px solid #24292e;}
+.FCclubName{border-top:1px solid #494e53;}
+
+#container .YourName a, .inSoob .YourName a, .YourName a{
+	display:block;
+	width:118px;
+	overflow:hidden;
+	white-space:nowrap;
+	font:12px/23px Arial, sans-serif;
+	color:#fff;
+}
+.YourName img{
+	position:absolute;
+	right:5px;
+	top:9px;
+}
+#container .FCclubName a, .inSoob .FCclubName a, .FCclubName a{
+	font:12px/24px Arial, sans-serif;
+	color:#33baff;
+}
+#container .FCclubName a:hover, #container .YourName a:hover{
+	text-decoration:underline;
+}
+.userNameBgGrad{
+	background:url(../img/userNameBgGrad.png);
+	width:20px;
+	height:13px;
+	position:absolute;
+	top:6px;
+	right:13px;
+}
+.mynamet .userNameBgGrad{	
+	right:0;
+}
+.ratio{
+	width:100%;
+	height:24px;
+	margin-top:5px;
+	position:relative;
+}
+.votes, .status{
+	width:50%;
+	float:left;
+	font:11px/24px Arial, sans-serif;
+	text-align:center;
+}
+.votes{
+	color:#fff;
+	background:url("../img/ratiobg.png") repeat scroll 0 0 transparent;
+	text-indent:-12px;
+}
+.status{
+	color:#33baff;
+	background:url("../img/statusbg.png") repeat scroll 0 0 transparent;
+	text-indent:12px;
+}
+.ImageStatus{
+	background:url("../img/sritetoolbar.png") -169px -116px;
+	height:35px;
+	width:32px;
+	position:absolute;
+	margin-left:-16px;
+	left:50%;
+	top:-5px;
+}
+.botParInUsName{
+	margin:3px 0;
+}
+p.botParInUsName a{
+	padding:3px 0;
+	color:#fff;
+	padding-left:23px;
+	background:url(../img/konvert.png) no-repeat  0 -24px;
+}
+p.botParInUsName a:hover{
+	background-position:0 1px;
+	text-decoration:none;
+}
+.hoverLink{	
+	position:absolute;	
+	padding:0 10px;
+	white-space:nowrap;
+	border-left:1px solid #1F242B;
+	border-right:1px solid #1F242B;
+	background:url("../img/navwsbg.png");
+	z-index:999;
+}
+.hoverLink li{background:url("../img/divlibotbg.png") repeat-x center bottom;}
+.bgnone{background:none !important;}
+.hoverLink a{
+	display:block;
+	font:12px/28px Arial,sans-serif;
+	color:#FFFFFF;
+	padding:0 10px;
+	text-decoration:none;
+}
+/**/
+.topLineWin, .leftUg, .leftLineWin, .arrowWinTop,  .rightlineWin, .rightUg{	
+	height:9px;
+}
+.leftUg, .leftLineWin, .arrowWinTop, .rightlineWin, .botLeftUg{
+	position: relative;
+	left:-1px;
+}
+.leftUg, .leftLineWin, .arrowWinTop, .botLeftUg{
+	float:left;	
+}
+.leftLineWin, .rightlineWin{
+	background:url(../img/cenarbg.png) repeat-x;	
+}
+.leftUg, .rightUg, .botLeftUg, .botRightUg{
+	background:url(../img/leftandrightug.png) no-repeat;
+	width:5px;
+}
+.rightUg, .botRightUg{
+	position: relative;	
+	right:-1px;
+	float:right;	
+}
+.topLineWin,.botLineWin{
+	width:100%;
+	position:absolute;
+	left:0;
+}
+.topLineWin{
+	top:-9px;
+}
+.leftLineWin{
+	width:50px;	
+}
+.arrowWinTop{
+	width:12px;
+	background:url(../img/cwnarr.png) no-repeat;
+}
+.rightlineWin{
+	margin-right:3px;
+	margin-left:67px;
+}
+.rightUg{
+	background-position: 100% 0;
+}
+
+.botLineWin, .botLeftUg, .botRightUg, .botCenterLine{
+	height:3px;	
+}
+
+.botLineWin{
+	bottom:-3px;
+}
+.botLeftUg{
+	background-position:0 -9px;
+}
+.botRightUg{
+	background-position:-5px -9px;
+}
+.botCenterLine{
+	margin:0 4px;
+	background:url(../img/botCenterLine.png) repeat-x;
+}
+#ImgFlag{margin-left:3px;}
+#maincontent{
+    background: url(../img/mainbg1.jpg) no-repeat center top #000;
+}
+.fcClubPag #maincontent{
+    background: url(../img/clubBGmain.jpg) no-repeat center top #000;
+}
+.ProfilePag #maincontent{
+    background: url(../img/Profile.jpg) no-repeat center top #000;
+}
+.inmaincontent{
+	width:1024px;
+	margin:auto;
+	padding:1px 0;
+	padding:15px 0 0;
+}
+.massan, .inmassan{
+	height:110px;
+}
+.bgchange{
+	background:url(../img/anibackbg.png);
+	float:right;
+	margin-top:50px;
+	padding:0 4px;
+	width:30px;
+}
+.arrowsw, .textsw, .screensw{
+	height:21px;
+	float:left;
+}
+.arrowsw{
+	background:url(../img/fonchange.png) no-repeat 0 0;
+	width:10px;	
+}
+.screensw{	
+	background:url(../img/fonchange.png) no-repeat -14px 0;
+	width:19px;
+}
+.textsw{
+	font:12px/21px Arial, sans-serif;
+	color:#9ca4af;
+	overflow:hidden;
+	width:0;
+}
+.massan, .inmassan, .leftpar, .like a{
+	float:left;
+}
+.inmassan, .likeplus{
+	position: relative;
+}
+.like, .conmas{
+	overflow:hidden;
+}
+.massan{
+    background:#fff;
+    padding:1px 0;
+    border-radius:4px 0 5px 4px;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.5);
+	position:relative;
+	z-index:100;
+}
+.inmassan{
+	width:362px;
+}
+.arbotfc{
+	width:24px;
+	height: 12px;
+	position:absolute;
+	bottom:-11px;
+	left:93px;
+	background:url(../img/spritetwo.png) no-repeat 0 -97px;
+}
+.conmas{
+	color: #393939;	
+	border-bottom:1px solid #d3d3d3;
+	height:82px;
+	margin:5px;
+}
+.conmas img{
+	float:right;
+	border:2px solid #bababa;
+	margin-left: 10px;
+}
+.leftpar,.rightpar, .leftpar a{
+	color: #8e8e8e;
+}
+.leftpar, .rightpar{
+	margin-left: 5px;
+}
+.leftpar a:hover{
+	text-decoration:none;
+}
+.rightpar{
+	float:right;
+	margin-right: 5px;
+}
+.likeplus{
+	border:1px solid #3b3d41;
+	margin-top:-1px;
+	height:100px;
+	float:right;
+	background:url("../img/infobg.png");
+	padding:5px 5px;
+	border-radius:0 0 4px 0;
+}
+.like a{	
+	font:11px/20px Arial, sans-seirf;
+	color:#ffffff;
+	text-decoration:none;
+}
+.like a:hover{	
+	text-decoration:underline;
+}
+.cool, .shst, .see, .comlike{
+	display:block;
+	width:20px;
+	height: 19px;
+	background:url(../img/likesprite.png) no-repeat;
+}
+.cool{
+	display:inline-block;
+	background-position:-1px -2px;
+	vertical-align:middle;
+}
+#container .coolLink:hover{
+	text-decoration:none;
+	text-shadow:0 0 4px #29799e, 0 0 5px #29799e, 0 0 5px #29799e, 0 0 3px #29799e;
+}
+.cllPple{
+	margin-left:20px;
+}
+.coolLink{
+	padding-right:3px;
+}
+.coolLink:hover .cool{
+	background-position:-33px -2px;
+}
+.shst{
+	background-position:-1px -23px;
+}
+.shst:hover{
+	background-position:-34px -23px;
+}
+.see{
+	background-position:-2px -48px;
+}
+.see:hover{
+	background-position:-33px -48px;
+}
+.comlike{
+	background-position:-2px -72px;
+}
+.comlike:hover{
+	background-position:-34px -72px;
+}
+.padlike{
+	margin-bottom:10px;
+}
+
+#closet{
+	position:absolute;
+	top:-1px;
+	right:-22px;
+	width:24px;
+	height:25px;
+	background:url(../img/spritetwo.png) no-repeat -103px -44px;
+}
+#content{
+	width:1024px;
+	background:#f9f9f9;
+	margin-top:153px;
+	position:relative;
+	border-radius:0 0 3px 3px;
+}
+.UserMenu, .UserMenuDiv, .UserMenuLi, .UserMenuLink{
+	height:31px;
+}
+.UserMenuDiv{
+	position:relative;
+}
+.UserMenu{
+	border:1px solid #485059;
+	border-bottom:none;
+	position:absolute;
+	right:10px;
+	top:-31px;
+	background:url(../img/UserMenuBg.png) repeat-x 0 0;
+	border-radius:1px;
+	z-index:99;
+}
+.UserMenuLi{
+	padding-right:2px;
+	background:url(../img/UserMenuDivBgImg.png) repeat-y  100% 2px;
+	float:left;
+}
+.UserMenuLink{
+	display:block;
+	padding:0 26px 0 46px;
+	line-height:31px;
+	text-decoration:none;
+	color:#b9c9db;
+	background:url(../img/UserMenuLinkBG.png) no-repeat;
+}
+.myField{
+	background-position:0 0;
+}
+.myFriend{
+	padding-left:45px;
+	background-position:0 -62px;
+}
+.myPhoto{
+	background-position:0 -124px;
+}
+.myVideo{
+	background-position:0 -186px;	
+}
+
+.myMitingi{
+	background-position:0 -248px;	
+}
+.more{
+	padding:0 25px 0 30px;
+	background-position:0 -310px;	
+}
+.UserMenuDiv:hover .more{
+	color:#fff;
+	background-position:0 -341px;	
+}
+.UserMenuDivPlash{
+	display:none;
+	border:1px solid #42c63b;
+	color:#fff;
+	position:absolute;
+	top:-7px;
+	right:9%;
+}
+.UserMenuDivPlash p{
+	background:#0ea009;
+	border:1px solid #0b7307;
+	padding:0 2px;
+}
+.UserMenuDiv:hover .UserMenuDivPlash{
+	display:block;
+}
+.UserMenuDivActive .myField{
+	background-position:-4px -31px !important;
+}
+.UserMenuDivActive .myFriend{
+	background-position:0 -93px;
+}
+.UserMenuDivActive  .myMitingi{
+	background-position:0 -279px;	
+}
+.UserMenuDivActive  .myVideo{
+	background-position:0 -217px;	
+}
+.UserMenuDivActive .myPhoto{
+	background-position:0 -155px;
+}
+.UserMenuDivActive{
+	background:url(../img/UserMenuLiBg.png) repeat-x -2px 0;
+}
+.UserMenuDivActive  .UserMenuLink{
+	color:#fff;
+}
+.UserMenuDiv .rightlineWin{
+	margin-left: 122px;
+}
+.HoverWind .hoverLink{
+	display:none;
+} 
+.HoverWind:hover .hoverLink{
+	display:block;	
+}
+.UserMenuDiv .hoverLink{
+	top:40px;
+	left:-93px;
+	width:160px;
+}
+.UserMenuDiv .hoverLink .leftLineWin{
+	width:105px;
+}
+.UserMenuDiv .hoverLink a{
+	padding-left:30px;
+	background:url(../img/UserMenuDivMoreLink.png) no-repeat;
+}
+.UserMenuDiv .hoverLink .UserMenuMoreLinkOne:hover{
+	background-position:0 -26px;
+}
+.UserMenuDiv .hoverLink .UserMenuMoreLinkTwo{
+	background-position:0 -52px;
+}
+.UserMenuDiv .hoverLink .UserMenuMoreLinkTwo:hover{
+	background-position:0 -78px;
+}
+.UserMenuDiv .hoverLink .UserMenuMoreLinkThree{
+	background-position:0 -104px;
+}
+.UserMenuDiv .hoverLink .UserMenuMoreLinkThree:hover{
+	background-position:0 -130px;
+}
+.UserMenuDiv .hoverLink .UserMenuMoreLinkFor{
+	background-position:0 -156px;
+}
+.UserMenuDiv .hoverLink .UserMenuMoreLinkFor:hover{
+	background-position:0 -182px;
+}
+.FCBunyotkor{
+	position:absolute;
+	right:-21px;
+	top:-6px;
+}
+#aside{
+	width:204px;
+	padding:0 10px;
+	position:relative;
+	float:left;
+	/* background:#cfc; */
+}
+.Fcright, .fcClubWind, .infcClubWind p a, .count, .offNews{
+	position:relative;
+}
+.fcPlash, .infcClubWind, .infcClubWindarr,.ommentsMittingArr, .ommentsMittingArrinBlock{
+	position:absolute;
+}
+.aLink a, .fcZag h3, .count, .ommentsMitting a{
+	font:12px Arial, sans-serif;
+}
+.fcPlash{
+	top:-90px;
+	left:-10px;
+	width:238px;
+	height:439px;
+	background:url(../img/bunyotkorplash.png) no-repeat center top;
+}
+.ProfilePag .fcPlash{
+	top:175px;
+}
+.fcClubPag .fcPlash{
+	background:url(../img/pahtakorplash.png) no-repeat center top;
+}
+.ProfilePag .fcPlash{
+	background:url(../img/fcChelsPlash.png) no-repeat center top;
+}
+.centrirovaniefc{
+	width:190px;
+	margin-top:150px;
+	margin-left:22px;
+}
+.fcZag{
+	padding:10px 0 10px 0;
+	background:url(../img/fcZagplash.png) repeat-x 0 100%;
+}
+.fcZag h3{
+	color:#979797;
+	padding:3px 0;
+}
+.aLink a{
+	color:#fff;
+	text-decoration:underline;
+}
+.inAlink{
+	padding-left:15px;
+	background:url(../img/aLinkPlash.png) no-repeat 2px 0;
+}
+a.fcMore{
+	padding-left:15px;
+	background:url(../img/fcMore.png) no-repeat 5px 4px;
+	float:left;
+	clear:both;
+}
+.aLink a:hover{
+	text-decoration:none;
+}
+.Fcright{
+	height:14px;
+	width:14px;
+	float:right;
+	background:url(../img/fcChange.png) no-repeat 0 -24px;
+}
+.Fcright:hover{
+	background-position:0 -38px;
+}
+.Fcright .hint{
+	top:21px;
+	left:-24px;
+}
+.Fcright:hover .hint{
+	display:block;
+}
+.Fcright a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.FcrightinendFc{
+	width:12px;
+	height:12px;
+}
+.FcrightinendFc .hint{
+	top:19px;
+	left:-23px;
+}
+.endFc .Fcright{
+	background-position:0 0;
+}
+.endFc .Fcright:hover{
+	background-position:0 -12px;
+}
+.fcClubWind{
+	float:left;
+}
+.fcClubWind:hover .infcClubWind{
+	display:block;
+}
+.infcClubWind{
+	display:none;
+	width:190px;
+	height:50px;
+	background:url(../img/infcClubWindBg.png);
+	padding:5px;
+	bottom:-65px;
+	left:0;
+	
+}
+.infcClubWind .dopWinPanel{
+	float:left;
+}
+.FcPanelWinClub{
+	float:right;
+	width:127px;
+	height:20px;
+	padding:0 5px;
+	padding-top:2px;
+	background:url(../img/infobg.png);
+	border-radius:3px 3px 0 0;
+}
+.FcPanelWinClub a{
+	padding-left:0;
+}
+.infcClubWind p{
+	float:left;
+	padding-top:13px;
+	padding-left:5px;
+}
+.infcClubWind p a{
+	font:11px Arial, sans-serif;
+	padding:8px 0 8px 25px;
+	bottom:7px;
+	left:2px;
+	text-decoration:none;
+	background:url(../img/fcclubwinpoleimg.png) no-repeat 0 top;
+	color:#fff;
+}
+.infcClubWind p a:hover{
+	background-position:0 bottom;
+}
+.frw:hover{
+	text-decoration:none !important;
+}
+.infcClubWindarr{
+	width:100%;
+	height:10px;
+	background:url(../img/infcClubWindarr.png) no-repeat 18px bottom;
+	top:-10px;
+	left:0;
+}
+.outmit{
+	margin-top:370px;
+}
+.ProfilePag .outmit{
+	margin-top:620px;
+}
+.mitZag, .nowOnZag{
+	padding-bottom:1px;
+	border-bottom:1px solid #a0a0a0;
+	cursor:pointer;
+	background:url(../img/arrh2hovimg.png) no-repeat 100% 0;
+}
+.count{
+	color:#474747;
+	top:-6px;
+	right:-1px;
+}
+.offNews{
+	padding:5px;
+	border:1px solid #afa8a8;
+	background:#f4f4f4;
+	font:11px Arial, sans-serif;
+	color:#2f2f2f;
+	border-radius:3px 3px 0 0;
+	margin:10px 0;
+	position:relative;
+}
+div.offNews a{
+	color:#2f2f2f;	
+	text-decoration:underline;
+}
+div.offNews  a:hover{
+	text-decoration:none;
+}
+.date{
+	color:#515151;
+	padding:2px 0;
+}
+.ommentsMittingArr{
+	background:url(../img/ommentsMittingArr.png) no-repeat;
+	bottom:-8px;
+	left:10px;
+	height:8px;
+	width:8px;
+}
+.ommentsMitting a{
+	text-decoration:none;
+}
+.yesAndNo{
+	display:none;
+	width:100%;
+	height:100%;
+	border-radius:2px 2px 0 0;
+	background:url(../img/yesAndNoBg.png);
+	position:absolute;
+	top:0;
+	left:0;
+}
+.ommentsMittingArrinBlock{
+	background:url(../img/ommentsMittingArrinBlock.png) no-repeat 10px 0;
+	bottom:-18px;
+	left:0;
+	height:18px;
+	width:100%;	
+}
+.yesAndNo button {
+	border:0;
+	outline:0;
+	background:url(../img/spritetwo.png) no-repeat 0 -126px;
+	width:59px;
+	height:27px;
+	cursor:pointer;
+	margin:25px 0 0 28px;
+	float:left;
+}
+#container .yesAndNo a {
+	color:#fff;
+	cursor:pointer;
+	margin:25px 0 0 28px;
+	position:relative;
+	top:33px;
+}
+.yesAndNo button:active {
+	background-position:0 -153px;
+}
+.massNowIn{
+	position:relative;
+}
+.arrowNowOnIn{
+	position:absolute;
+}
+.nowOn{
+	margin-top:30px;
+	padding-bottom:10px;
+}
+.nowOnIn li{
+	margin-top:20px;
+}
+.massNowIn{
+	line-height:20px;
+	color:#18491b;
+	background:#cbffcd;
+	border:1px solid #a3eaa7;
+	border-radius:3px 3px 0 0;
+	padding:0 5px;
+}
+.arrowNowOnIn{
+	bottom:-8px;
+	left:5px;
+	width:10px;
+	height:8px;
+	background:url(../img/arrowNowOnIn.png);
+}
+.nowOnlineBlock .userstats{
+	margin:10px 0;
+}
+.nowOnlineBlock .UsNameAndFc a{
+	text-decoration:none;
+}
+.nowOnlineBlock .UsNameAndFc a:hover{
+	text-decoration:underline;
+}
+.themsBlock, .themsContent, .themsPar{
+	overflow:hidden;
+}
+.themsPar, .ThemsLink{
+	position:relative;
+}
+.addBlurb, .ThemsLink{
+	padding:5px;
+	padding-top:3px;
+}
+.themsBlock li{
+	margin-top:20px;
+}
+.themsImage{
+	float:left;
+}
+.themsContent{
+	color:#5b5b5b;
+	margin:10px 0 5px 0;
+	
+}
+.themsPar{
+	width:123px;
+	height:68px;
+	padding:2px 0;
+	float:right;
+	margin-left: 8px;
+}
+.GradiendEnd{
+	width:27px;
+	height:20px;
+	position:absolute;
+	background:url("../img/ThemsLinkGradient.png") repeat-y;
+	right:0;
+	top:54px;
+}
+.ThemsLink{
+	background:#e8e8e8;
+}
+.ThemsLink a{
+	color:#808080;
+}
+.ThemsLink .GradiendEnd{
+	right:0;
+	top:0;
+	background-image:url(../img/gradientParLeftBar.png);
+}
+li.addBlurb{
+	border-top:1px solid #a0a3a7;
+	background:url(../img/addBlurBImg.png) 96% 50% no-repeat #ccced0;
+	margin:10px 0;
+}
+.fcClubPag #article {
+	top: -32px;
+	padding: 0;
+}
+#article, .ProfilePag #article{
+	padding:80px 0 0;
+	width:788px;
+	float:right;
+}
+.NBswitchPanel, .NBZag a, .NBcontentIn, .LPinNBR, .hideAndHow, table.TableInFixTwo{
+	float:right;
+}
+.goLeft, .goRight, .NBZag h2, .NBUl li, .NBcontent img, .LPinNB{
+	float:left;
+}
+.NBZag, .newsBlock, .NBUl, .NBcontent, .NBcontentIn, .likePanel, .outNBHide, .fixBlock, .ClubBl{
+	overflow:hidden;
+}
+.NBcontentIn, .hideAndHow, .fixBlock, .TableInFix, .ClubBl{
+	position:relative;
+}
+.newsBlock, .ClubBl, .vidBlOut{
+	background:url(../img/botImg.png) repeat-x 0 100%;
+}
+.newsBlock{
+	padding-top:10px;
+}
+.outNBHide{
+	margin:0 15px;
+	height:195px;
+	background:url(../img/preloader.gif) no-repeat center center;
+}
+.NBZag{
+	padding-bottom:10px;
+}
+.NBZag a{
+	margin-right:12px;
+	text-decoration:none;
+	border-bottom:1px dotted #01699f;
+}
+.NBZag a:hover{
+	border-bottom:0;
+}
+.NBswitchPanel{
+	height:17px;
+	border:1px solid #5f6774;
+}
+.goLeft, .goRight{
+	width:22px;
+	height:17px;
+	background:url(../img/spritetwo.png) no-repeat -88px 0;
+	cursor:pointer;
+}
+.goLeft:hover{
+	background-position:-88px -17px;
+}
+.goRight{
+	background-position:-110px 0;
+}
+.goRight:hover{
+	background-position:-110px -17px;
+}
+.NBUl{
+	background:#f9f9f9;
+	margin:20px 0 15px;
+	height:140px;
+}
+.NBUl li{
+	width:225px;
+}
+.NBH3 a{
+	color:#000;
+	text-decoration:none;
+}
+.NBH3 a:hover{
+	text-decoration:underline;
+}
+.NBcontent{
+	padding:5px 0;
+}
+.NBcontent img{
+	border:3px solid #bababa;
+}
+.NBcontentIn{
+	width:147px;
+	height:73px;
+}
+.date{
+	color:#acacac;
+}
+.NBcontentIn p{
+	color:#535353;
+}
+.likePanel{
+	clear:both;
+	background:url(../img/infobg.png);
+	line-height:21px;
+	border:1px solid #3b3d41;
+	border-radius:0 0 3px 3px;
+	padding:0 5px 0 1px;
+}
+.likePanel .LPinNB{
+	margin-right:6px;
+}
+.liInNBPad{
+	margin:0 40px;
+}
+.hideAndHow{
+	clear:both;
+	width:61px;
+	height:14px;
+	background:url(../img/spritetwo.png) no-repeat 100% 100%;
+	cursor:pointer;
+	top:-4px;
+	right:17px;
+}
+/*блок с таблицей матчей*/
+.fixBlock, .MyBan{
+	padding:10px 0 0;
+	background:url(../img/botImg.png) repeat-x 0 100%;
+}
+.MyBan{
+	padding:2px 0 6px 0;
+}
+.MyBan a{
+	display:block;
+	width:717px;
+	height:65px;
+	overflow:hidden;
+	margin:auto;
+}
+.MyBan img{
+	display:block;
+}
+.outFix{
+	overflow:hidden;
+	margin:0 15px;
+}
+.TableInFix{
+	color:#6d6c6c;
+	text-align:center;
+	border-collapse:separate;
+	border-spacing:3px 4px;
+	left:-2px;
+	float:left;
+	table-layout:fixed;
+	width:373px;
+	margin-bottom:10px;
+}
+.TableInFixTwo{
+	position:static;
+}
+.centext{
+	color:#3e434c;
+}
+.centext img{
+	vertical-align: middle;
+	float:right;
+	padding:6px 5px 5px 5px;
+}
+.TableInFix td{
+	background:#ddd;
+	line-height:18px;
+	height:18px;
+}
+td.ImgTb{
+	background:none;
+}
+.ImgTb img{
+	vertical-align: middle;
+}
+td.countTb{
+	color:#fff;
+	background:#40464f;
+}
+.hideBlock{
+	display:none;
+	background:#cacbcd;
+	margin-bottom:4px;
+	padding:5px 15px 3px;
+	overflow:hidden;
+}
+.hideBlock img{
+	float:right;
+	position:relative;
+	top:7px;
+	cursor:pointer;
+}
+
+
+.loader{
+	padding:10px 15px;
+	background:url(../img/botImg.png) repeat-x 0 100%;
+}
+.OutInLoader{
+	padding:1px 0;
+}
+.rMenu{
+	height:27px;
+	margin-top:10px;
+	position:absolute;
+	overflow:hidden;
+}
+.LMli{
+	background:url(../img/LMliBg.png) repeat-x;
+	float:left;
+}
+.oneLiLM{
+	border-radius:5px 0 0 0;	
+}
+.endLiLM{
+	border-radius:0 5px 0 0;	
+}
+.LMli div{
+	line-height:27px;
+	color:#444444;
+	padding:0 20px;
+	padding-left:40px;
+	border-left:1px solid #c4c4c4;
+	border-right:1px solid #8c8c8c;
+	cursor:pointer;
+	background:url(../img/LMDivBg.png) no-repeat;
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.3);
+}
+div.LMdiv2{
+	background-position:0 -54px;
+}
+div.LMdiv3{
+	background-position:0 -108px;
+}
+div.LMdiv4{
+	background-position:0 -162px;
+}
+div.LMdiv5{
+	background-position:0 -216px;
+}
+.LMActive div.LMdiv1{
+	background-position:0 -27px;
+}
+.LMActive div.LMdiv2{
+	background-position:0 -81px;
+}
+.LMActive div.LMdiv3{
+	background-position:0 -135px;
+}
+.LMActive div.LMdiv4{
+	background-position:0 -189px;
+}
+.LMActive div.LMdiv5{
+	background-position:0 -243px;
+}
+
+.LMActive{
+	background:url(../img/LMliBgh.png) repeat-x;
+}
+.LMActive  div{
+	color:#fff;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.3);
+	border-left:1px solid #4a8cc5;
+	border-right:1px solid #034984;	
+}
+
+div.LMdiv1{
+	border-left:none;
+}
+div.LMdiv5{
+	border-right:none;
+}
+.BlockChange{
+	padding:5px;
+	background:#075597;
+	margin-top:27px;
+}
+.inputIield, .linkFromMover, .PhotoContent, .VideContent, .EnterQuestion, .videoOp, .answer, .linkSls{
+	min-height:25px;
+	font:14px Arial, sans-serif;
+	background:#fff;
+	color:#494949;
+	padding:10px 10px 0;
+	cursor:text;
+	outline:0;
+	bottom:0;
+}
+.inputIield, .linkFromMover, .PhotoContent, .VideContent, .videoOp, .EnterQuestion{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#inputIield:focus{
+	box-shadow:0 0 5px rgba(255, 255, 255, 1) !important;
+}
+.BlockwithPanel{
+	height:27px;
+	margin-top:5px;
+}
+.publish{
+	width:117px;
+	height:27px;
+	float:right;
+	background:url(../img/spritethree.png) no-repeat;
+	color:#075f00;
+	text-transform:uppercase;
+	text-align:center;
+	line-height:30px;
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+	cursor:pointer;
+}
+.publish:active{
+	background-position:0 -27px;
+}
+.smile{
+	width:49px;
+	height:27px;
+	float:left;
+	background:url(../img/spritethree.png) no-repeat -117px 0;
+	cursor:pointer;
+	position:relative;
+}
+.smile:active{
+	background-position:-117px -27px;
+}
+.SmileIn{
+	width:300px;
+	padding:5px;
+}
+.smile .hoverLink{
+	display:none;
+	top:32px;
+	left:0;
+	padding:0;
+	z-index:1;
+}
+.smile .leftLineWin{
+	width:30px;
+}
+
+.smile .rightlineWin{
+	margin-left:47px;
+}
+.SmileIn img{
+	float:left;
+	padding:1px 0;
+}
+.masLoader{
+	background:#cbffcd;
+	padding:8px;
+	border:1px solid #a3eaa7;
+	color:#18491b;
+	margin-top:12px;
+	border-radius:0 0 5px 5px;
+	position:relative;
+}
+.arrbgCHB{
+	position:absolute;
+	top:-8px;
+	left:10px;
+	width:10px;
+	height:8px;
+	background:url(../img/arrbgCHB.png) no-repeat;
+}
+.likepanelCHB{
+	overflow:hidden;
+	margin-top:5px;
+}
+.likepanelCHB .like a{
+	color:#559858;
+}
+.likepanelNews .like a{
+	color:#559858;	
+}
+.likepanelCHB .LPinNB{
+	margin:0 8px 0 0;
+}
+.likepanelCHB .cool, .likepanelCHB  .shst, .likepanelCHB .see, .likepanelCHB .comlike{
+	background-image:url(../img/likepanelCHB.png);
+}
+.likepanelCHB .see{
+	background-position:-2px -48px;
+}
+.likepanelCHB .see:hover{
+	background-position:-2px -48px;
+}
+.likepanelCHB .comlike{
+	background-position:-2px -72px;
+}
+.likepanelCHB .comlike:hover{
+	background-position:-2px -72px;
+}
+#container .likepanelCHB .coolLink:hover{
+	text-shadow:0 0 5px #00ccff;
+}
+.LikePanelUs .like a{
+	color:#595959;
+}
+.linkFromMover{
+	background:url(../img/moverBg.png) no-repeat 99% 50% #fff;
+}
+.orInVideo{
+	color:#fff;
+	padding-left:10px;
+}
+.FileUP {
+	cursor:pointer;
+	width:49px;
+	height:27px;
+	overflow:hidden;
+	margin-left:10px;
+	float:left;
+	background:url(../img/spriteThree.png) no-repeat -166px 0;
+}
+.FileUP:active{
+	background:url(../img/spriteThree.png) no-repeat -166px -27px;
+}
+.fileVid{
+	background-position:-215px 0;
+}
+.fileVid:active{
+	background:url(../img/spriteThree.png) no-repeat -215px -27px;
+}
+.fileUpIn, .fileVidIn, .fileIn, .fileInT, .fileNewsUp{
+	width:0;
+	height:0;
+	opacity:0;
+}
+.loadPhoto{
+	height:65px;
+	margin-top:5px;
+	background:#fff;
+	padding:6px 5px;
+}
+.addPhoto{
+	color:#075597;
+	text-align:center;
+	border:1px dashed #075597;
+	width:62px;
+	height:45px;
+	padding-top:17px;
+	cursor:pointer;
+	float:left;
+}
+.PhotoaddImg{
+	float:left;
+	margin-left:32px;
+	background:url(../img/preloader.gif) no-repeat center center #ddd;
+	width:64px;
+	height:64px;
+	position:relative;
+}
+.PhotoaddImgIn{
+	width:100%;
+	height:100%;
+}
+.PhotoaddImg:hover .deleteImgP{
+	display:block;	
+}
+.galka{
+	position:absolute;
+	right:0;
+	bottom:0;	
+}
+.deleteImgP{
+	display:none;
+	position:absolute;
+	background:rgba(0,0,0, 0.4);
+	width:100%;
+	height:100%;
+}
+.deleteImgP img{
+	position:absolute;
+	right:0;
+	bottom:0;
+	cursor:pointer;
+	z-index:1;
+}
+.agre{
+	color:#fff;
+	width:317px;
+	float:right;
+	margin-right:10px;
+	overflow:hidden;
+	position:relative;
+}
+.agre p{
+	width:275px;
+	float:right;
+	background:#3172a9;
+	padding:0 5px 0;
+	border-radius:3px;
+	position:relative;
+	height:27px;
+}
+.agre p a{
+	color:#9ed3ff;
+	text-decoration:none;
+}
+.agre p a:hover{
+	text-decoration:underline;
+}
+.agre input{
+	width:18px;
+	float:left;
+}
+.arrOne{
+	position:absolute;
+	border-style:solid;
+	border-color:#075597 #3172a9 #075597 #075597;
+	border-width:4px;
+	z-index:1111;
+	left:-8px;
+	top:10px;
+}
+.forradioBut, .forradioButNB{
+	width:25px;
+	height:25px;
+	position:absolute;
+	background:url(../img/spriteThree.png) no-repeat 100% 0;
+	cursor:pointer;
+	z-index:9;
+	margin-top:2px;
+}
+.radioButagre{
+	position:absolute;
+	opacity:0;
+}
+.videoLoader{
+	height:40px;
+	background:#075597;
+	padding-top:10px;
+}
+.loaderVideo{
+	height:17px;
+	border-bottom:1px solid #096ab1;
+	border-radius:19px;
+	background:url(../img/loaderVideo.png) repeat-x;
+	padding:1px;
+}
+.loaderVideoin{
+	width:0%;
+	height:17px;
+	background:url(../img/loaderVideoin.png) repeat-x;
+	border-radius:17px;
+	position:relative;
+}
+.LDVspan{
+	position:absolute;
+	color:#fff;
+	right:0;
+	bottom:-20px;
+}
+.outAnswar{
+	min-height:34px;
+	margin-top:5px;
+	margin-bottom:6px;
+	overflow:hidden;
+}
+.answer{
+	width:688px;
+	float:left;
+}
+.RemoveAnsver, .addAnswer, .addLinkSls{
+	border:1px solid #07406f;
+	height:34px;
+	width:33px;
+	text-align:center;
+	background:#84c4f4;
+	float:right;
+	line-height:34px;
+	cursor:pointer;
+	font-size:20px;
+	font-weight:bold;
+	color:#07406f;
+	text-shadow:1px 1px 0 #aad4f5;
+}
+.linkSls{
+	width:651px;
+}
+.linkSlsout{
+	position:relative;
+}
+.addLinkSls{
+	width:71px;
+	font-size:12px;
+}
+.addLinkSls:active{
+	background:url(../img/addlinksbghover.png) no-repeat 0 0;
+}
+.addAnswer .hint, .RemoveAnsver .hint{
+	margin-bottom:-7px;
+	font-weight:normal !important;
+	text-shadow:none;
+	white-space:nowrap;
+}
+.addAnswer:hover  .hint{
+	display:block;
+	margin-left:-25px;
+}
+.RemoveAnsver:hover .hint{
+	display:block;
+	margin-left:-9px;
+}
+.errorLinks{
+	color:#fff;
+	line-height:31px;
+	height:31px;
+	background:#ff5151;
+	position:absolute;
+	right:80px;
+	top:2px;
+	padding-right:5px;
+}
+.errorLinks img{
+	position:absolute;
+	left:-15px;
+	top:0;
+}
+.tapeNews{
+	padding:15px 15px 5px 15px;
+}
+.tapeNews .activeTapeN{
+	color:#969797 !important;
+	border-bottom:0;
+}
+.tapeNewsInUl{
+	color:#474747;
+}
+.tapeNewsInLi{
+	padding:20px 0 10px;
+	background:url(../img/tapeNewsInLi.png) repeat-x 0 100%;
+	/* float:left; */
+	width:100%;
+}
+.tapeNewsInLi:first-child{
+	padding-top:0;
+}
+.tapeUsAva{
+	width:52px;
+	padding-left:1px;
+	float:left;
+}
+.clear{
+	height:0;
+}
+.tapeUsCon{
+	margin-left:65px;
+}
+.UsName, .ThemsInfo, .WebSiteLinks{
+	color:#01699f;
+	text-decoration:none;
+	margin-right:5px;
+}
+.UsName:hover, .ThemsInfo:hover, .WebSiteLinks:hover{
+	text-decoration:underline;
+}
+.UsNameOut{
+	color:#474747;
+	margin-bottom:10px;
+}
+.withFriFri{
+	float:left;
+}
+.withFrilink{
+	padding-left:8px;
+}
+.pDM{
+	margin-left:10px;
+}
+.tapeUsImageBlock{overflow:hidden;}
+.tapeUsBigImg{
+	float:left;
+	position:relative;	
+}
+.tapeUsMinImg{
+	margin:0 0 14px 35px;
+	position:relative;
+	float:left;
+}
+.tapeUsMinImg:hover .imgHovUs, .tapeUsBigImg:hover .imgHovUs{
+	display:block;
+}
+.endUsImg{
+	margin-bottom:0;
+}
+.imgHovUs{
+	display:none;
+	width:76px;
+	height:78px;
+	position:absolute;
+	z-index:1;
+	left:50%;
+	margin-left:-38px;
+	top:50%;
+	margin-top:-39px;
+	background:url(../img/imgHovUs.png) no-repeat;
+}
+.LikePanelUs .cool, .LikePanelUs  .shst, .LikePanelUs .see, .LikePanelUs .comlike{
+	background-image:url(../img/likeVS.png);
+}
+.LikePanelUs .cool{
+	background-position:-1px -2px;
+}
+.LikePanelUs .cool:hover{
+	background-position:-1px 0px;
+}
+.LikePanelUs .shst{
+	background-position:-1px -23px;
+}
+.LikePanelUs .shst:hover{
+	background-position:-1px -23px;
+}
+.LikePanelUs .see{
+	background-position:-2px -48px;
+}
+.LikePanelUs .see:hover{
+	background-position:-2px -48px;
+}
+.LikePanelUs .comlike{
+	background-position:-2px -72px;
+}
+.LikePanelUs .comlike:hover{
+	background-position:-2px -72px;
+}
+.VidInUs{
+	border:1px solid #d8e8ea;
+	background:#fff;
+	padding:1px;
+	width:491px;
+	height:285px;
+	margin:auto;
+	position:relative;
+	cursor:pointer;
+}
+.authorIn{
+	color:#474747;
+	margin:5px 0;
+}
+.PlayVidUs{
+	width:79px;
+	height:79px;
+	background:url(../img/PlayVidUsbg.png);
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-35px;
+	margin-left:-35px;
+	cursor:pointer;
+}
+.PlayVidUs:hover{
+	background-position:-79px 0;
+}
+.infoVidUs{
+	background:url(../img/anibackbg.png);
+	width:94%;
+	height:36px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:0 3%;
+}
+.infoVidUs a{
+	font:14px/36px Arial, sans-serif;
+	color:#fff;
+	text-decoration:none;
+}
+.infoVidUs a:hover{
+	text-decoration:underline;
+}
+.likePost{
+	padding-left:8px;
+	border-left:2px solid #acacac;
+}
+.likePostInImg{
+	float:left;
+}
+.ThemsInfo, .WebSiteLinks{
+	padding-left:10px;
+}
+.WebSiteLinks{
+	color:#4191cf;
+}
+.WebSiteLinksOut{
+	margin:5px 0;
+}
+.ThemsCon{
+	color:#919191;
+}
+.mrIg{
+	margin-left:74px;
+}
+.PreloadNewLi{
+	height:60px;
+	background:url(../img/preloader.gif) no-repeat center center;
+	clear:both;
+}
+.footer{
+	color:#fff;
+	overflow:hidden;
+	padding-top:25px;
+	padding-bottom:15px;
+}
+.whLink a{
+	color:#fff;
+	text-decoration:none;
+}
+.whLink a:hover{
+	text-decoration:underline;
+}
+.cpeopleWrapper{
+	color:#242424;
+}
+.copy{
+	padding-left:10px;
+	float:left;
+}
+.copy h4{
+	padding:5px 0 45px;
+}
+.cpeopleWrapper p{
+	padding:2px 0;
+}
+.footer h3{
+	font:14px/25px Arial, sans-ыукша;
+	border-bottom:1px solid #838383;
+}
+.myStady, .futbolCons, .CLubFot{
+	float:left;
+}
+.myStady{
+	width:230px;
+	margin-left:105px;
+}
+.MSTWUL, .MSONUL{
+	float:left;
+	margin-top:16px;
+}
+.MSTWUL{
+	margin-left:30px;
+}
+.futbolCons{
+	margin-left:80px;
+}
+.CLubFot{
+	margin-left:95px;	
+}
+.compani{
+	float:right;
+	margin-right:25px;
+}
+.compani .MSONUL {
+	margin-top:0;
+}
+#back-top{
+	position:fixed;
+	bottom:168px;
+	right:0;
+}
+#back-top a{
+	display:block;
+	width:45px;
+	height:49px;
+	background:url(../img/back_top.png) no-repeat;
+	opacity:0.5;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+#back-top a:hover{
+	opacity:1;
+}
+
+/*Стрелка*/
+.arrowSoob{
+	position:absolute;
+	top:-8px;
+	z-index:100;	
+	width:19px;
+	height:10px;
+	background:url(../img/arrowSoob.png) no-repeat;
+}
+
+
+.MsgBox, .chatBoxOt{
+	display:none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+	z-index: 100;
+}
+.zind{
+	position:relative;
+	z-index:102;
+}
+.plashBlack{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background:url(../img/vsokn_bg.png);
+	z-index:99;
+	overflow:auto;
+}
+.InsobLtopBL, .InsobRtopBL{
+	float:left;
+}
+.InsobdotOut, .twb, .cloeSoob, .soundicon, .OffandOnS{
+	background:url(../img/spritethree.png) no-repeat;
+}
+.inSoob{
+	width:1024px;
+	margin:171px auto 30px;
+	background:#fff;
+	position:relative;
+	z-index:100;
+}
+.sobInTopPlash{
+	height:37px;
+	background:url(../img/sobInTopPlash.png) repeat-x;
+	position:relative;
+	z-index:2;
+}
+.InsobLtopBL{
+	height:35px;
+	width:212px;
+	border-right:1px solid #2584b9;
+	color:#80b6d6;
+	line-height:30px;
+	margin-left:10px;
+}
+.InsobLtopBL .dottedLink{
+	margin-left:97px;
+}
+.InsobLtopBL .dottedLink, .InsobRtopBL .dottedLink, .dottedLinkinC{
+	color:#fff;
+	border-bottom-color:#fff;
+}
+.InsobRtopBL{
+	width:791px;
+	height:35px;
+	border-left:1px solid #0d6da2;
+	line-height:30px;
+	position:relative;
+}
+.InsobdotOut{
+	padding-left:15px;
+	background-position:-389px 100%;
+	margin-left:22px;
+}
+.twb{
+	padding:2px 0 1px 25px;
+	background-position:-379px -366px;
+}
+.twb .dottedLink{
+	color:#000;
+	border-bottom-color:#000;	
+}
+.cloeSoob{
+	width:23px;
+	height:23px;
+	background-position:0 -54px;
+	position:absolute;
+	right:0;
+	top:6px;
+	cursor:pointer;
+}
+.soundoOff{
+	position:absolute;
+	right:57px;
+	top:6px;
+	height:23px;
+	width:90px;
+}
+.soundicon, .OffandOnS{
+	float:left;
+}
+.soundicon{
+	margin-top:4px;
+	width:20px;
+	height:18px;
+	background-position:-24px -55px;
+}
+.OffandOnS{
+	width:58px;
+	height:23px;
+	background-position:-66px -54px;
+	margin-left:5px;
+	cursor:pointer;
+}
+
+.listFriends{
+	width:223px;
+	background:#ebf0f2;
+	float:left;
+	position:absolute;
+	top:37px;
+	bottom:0;
+	border-right:1px solid #ededed;
+}
+.searchFriend{
+	border-right:1px solid #dbdbdb;
+	border-bottom:1px solid #cccccc;
+	border-top:1px solid #f0f3f5;
+	padding:5px 5px 5px 12px;
+	position:relative;
+}
+.searchText{
+	width:180px;
+	height:20px;
+	border:1px solid #dfdfdf;
+	border-radius:3px;
+	padding-right:15px;
+	padding-left:6px;
+	color:#9d9d9d;
+}
+.searchImg{
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:12px;
+	right:11px;
+}
+.bdb{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	border-bottom:1px solid #f0f3f5;
+}
+/**/
+.scrollFrWp{
+	width:223px;
+}
+.FriendScroll{
+	width:213px;
+	padding:0 0 0 10px;
+	overflow:auto;
+	margin:10px 0;
+}
+.FriendScroll .jspPane{
+	padding-left:0 !important;
+	width:210px !important;
+}
+.chatScrollWp{
+	width:778px;
+}
+.chatScroll{
+	width:768px;
+	padding:40px 0 75px 10px;
+	overflow:auto;
+	margin:5px 0 5px 17px;
+	z-index:0;
+}
+.chatBoxOt .chatScroll{
+	padding:137px 0 75px 10px;
+}
+.chatScroll .jspPane{
+	padding-left:0 !important;
+	width:765px !important;
+}
+/**/
+
+.outCombtn{
+	height:10px;
+}
+.USnameInLF{
+	overflow:hidden;
+	border-top:1px solid #ebf0f2;
+	border-bottom:1px solid #ebf0f2;
+	padding:5px 5px 5px 10px;
+	cursor:pointer;
+	position:relative;
+	white-space:nowrap;
+}
+.USnameActive{
+	background:#fff;
+	border-top-color:#dde0e3;
+	border-bottom-color:#dde0e3;
+	
+}
+.USava, .USava img{
+	height:46px;
+	width:46px;
+}
+.USava{
+	border:1px solid #a8a8a8;
+	border-radius:3px;
+	position:relative;
+	float:left;
+}
+.USava img{
+	display:block;
+	border-radius:2px;
+}
+.USava .krugxd{
+	text-align:center;
+	top:-6px;
+	left:-6px;
+}
+.masC .krugxd{
+	text-align:center;
+	top:-10px;
+	left:-10px;
+}
+.UsNandC{
+	width:137px;
+	float:right;
+	padding:10px 0;
+}
+.UsNandC a{
+	text-decoration:none;
+}
+.UsNandC a:hover{
+	text-decoration:underline;
+}
+.UsN{
+	position:relative;
+	color:#323637;
+	color:#323637;
+}
+.UsNIn{
+	width:129px;
+	overflow:hidden;
+	position:relative;
+}
+.UsC{
+	position:relative;
+	color:#5f5f5f;
+}
+.UsNimg{
+	position:absolute;
+	right:0;
+	top:5px;
+}
+.removeUs{
+	display:none;
+	position:absolute;
+	right:4px;
+	top:6px;
+	width:9px;
+	height:9px;
+	background:url(../img/removeUsimg.png);
+}
+.USnameInLF:hover{
+	background:#bddeff;
+	border-top-color:#a2c0dd;
+	border-bottom-color:#b8c8d7;
+}
+.USnameInLF:hover .removeUs{
+	display:block;
+}
+.USofLine .UsNimg{
+	display:none;
+}
+.USofLine:hover .UsNIn b{
+	background:url(../img/UsOffBgh.png) repeat-y;
+}
+.UsNIn b{
+	height:15px;
+	width:15px;
+	position:absolute;
+	right:0;
+	top:0;
+	background:url(../img/UsOffBg.png) repeat-y;
+}
+.chatOut{
+	margin-left:225px;
+	position:relative;
+}
+.downlast{
+	color:#899295;
+	background:url(../img/downlastbg.png) repeat-x 0 100% #f3f4f4;
+	line-height:34px;
+	cursor:pointer;
+	width:93%;
+	padding:0 2%;
+	margin:0 2% 0 1%;
+	position:absolute;
+	top:0;
+	z-index:9999;
+}
+.downlastTCI{
+	position:static;
+	background-color:#e8eaea;
+	padding-bottom:1px;
+	margin:0;
+	width:736px;
+}
+
+
+
+
+
+
+
+/**/
+.downlastCom{
+	background:#f3f4f4;
+	padding:0;
+	width:96%;
+	cursor:default;
+}
+.topComIn{
+	padding:5px 12px 7px 17px ;
+	background:url(../img/downlastbg.png) repeat-x 0 100%;
+}
+.topComInImg{
+	width:128px;
+	height:85px;
+	background:#cfc;
+	float:left;
+}
+.infPanel{
+	height:85px;
+	margin-left:135px;
+	white-space:nowrap;
+}
+.onfoTCI, .likeTCI{
+	height:85px;
+	float:left;
+}
+.onfoTCI{
+	width:400px;
+	line-height:15px;
+}
+.likeTCI{
+	width:180px;
+	position:relative;
+	left:23px;
+}
+.onfoTCI .authorIn{
+	padding-top:30px;
+	color:#899295;
+}
+.likeTCI .like{
+	float:right;
+}
+.likeTCI .LPinNBR{
+	margin-top:45px;
+}
+
+
+
+
+
+
+
+
+
+
+/**/
+.downlast .downInUp{
+	background:url(../img/downlastPbg.png) no-repeat 100% 50%;
+	padding:0 11px 0 0;
+	float:left;
+}
+.outCom{
+	padding:1px 0;
+}
+.outCom .userName a{
+	text-decoration:none;
+}
+.userName a{
+	text-decoration:none;
+}
+.userName a:hover{
+	text-decoration:underline;
+}
+.masComOut{
+	border:1px solid #dde0e3;
+	margin-top:7px;
+	padding:0 10px 14px;
+	width:506px;
+	background-image: linear-gradient(bottom, rgb(246,246,246) 31%, rgb(255,255,255) 66%);
+	background-image: -o-linear-gradient(bottom, rgb(246,246,246) 31%, rgb(255,255,255) 66%);
+	background-image: -moz-linear-gradient(bottom, rgb(246,246,246) 31%, rgb(255,255,255) 66%);
+	background-image: -webkit-linear-gradient(bottom, rgb(246,246,246) 31%, rgb(255,255,255) 66%);
+	background-image: -ms-linear-gradient(bottom, rgb(246,246,246) 31%, rgb(255,255,255) 66%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.31, rgb(246,246,246)),
+		color-stop(0.66, rgb(255,255,255))
+	);
+	border-radius:4px;
+	position:relative;
+}
+.masComOut:hover .poj{
+	display:block;
+}
+.dAB{
+	line-height:23px;
+	color:#b4b4b4;
+	overflow:hidden;
+}
+.poj{
+	display:none;
+	float:right;
+	line-height:23px;
+	background:url(../img/spritethree.png) no-repeat -275px -5px;
+	padding-left:15px;
+	color:#b4b4b4;
+	text-decoration:none;
+}
+.mainco{
+	color:#393939;
+}
+
+.aarow{
+	background:url(../img/arrowsSprite.png) 0 0;
+	width:8px;
+	height:7px;
+	position:absolute;
+	top:-7px;
+	left:15px;
+}
+.masComOutBlue{
+	margin-left:215px;
+	background-image: linear-gradient(bottom, rgb(220,233,245) 38%, rgb(229,242,255) 69%);
+	background-image: -o-linear-gradient(bottom, rgb(220,233,245) 38%, rgb(229,242,255) 69%);
+	background-image: -moz-linear-gradient(bottom, rgb(220,233,245) 38%, rgb(229,242,255) 69%);
+	background-image: -webkit-linear-gradient(bottom, rgb(220,233,245) 38%, rgb(229,242,255) 69%);
+	background-image: -ms-linear-gradient(bottom, rgb(220,233,245) 38%, rgb(229,242,255) 69%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.38, rgb(220,233,245)),
+		color-stop(0.69, rgb(229,242,255))
+	);
+}
+.aarowl{
+	background:url(../img/arrowsSprite.png) -8px 0;
+	width:7px;
+	height:8px;
+	position:absolute;
+	top:10px;
+	right:-6px;	
+}
+.msg{
+	background:#fff;
+    margin: 0 2% 0 1%;
+    padding: 5px 0 0 8px;
+    position: absolute;
+    bottom:0;
+    width: 751px;
+	height:80px;
+    z-index: 999;
+}
+.conen{
+	padding:18px 15px 15px 15px;
+	color:#919191;
+	border:1px solid #d2d2d2;
+	border-radius:3px;
+	overflow:hidden;
+	height:12px;
+}
+.msg .publish{
+	background:url(../img/spritethree.png) -273px -26px;
+	width:101px;
+	height:27px;
+}
+.countfile{
+	color:#393939;
+	line-height:27px;
+	margin-left:10px;
+}
+.sortOm{
+	background:url(../img/spritethree.png) no-repeat -186px -55px;
+	float:right;
+	margin-top:5px;
+	margin-right:2px;
+	height:26px;
+	cursor:pointer;
+	width:88px;
+	position:relative;
+	text-shadow:0 1px 0 #06314a;
+}
+.SortIn{
+	height:22px;
+	line-height:27px;
+	background:none;
+	outline:0;
+	border:0;
+	position: relative;
+	top: -1px;
+	padding:0 20px 0 7px;
+}
+.IBLul{
+	display:none;
+	background:#0a517c;
+	position:absolute;
+	padding:3px 4px;
+	width:80px;
+	left:0;
+	top:30px;
+	border-radius:3px;
+	color:#75c9fb;
+}
+.arrsorTom{
+	position:absolute;
+	width:6px;
+	height:3px;
+	top:-3px;
+	right:5px;
+	background:url(../img/arrowsSprite.png) no-repeat -18px 0;
+}
+.IBLul li{
+	height:24px;
+	line-height:24px;
+	background:url(../img/.IBLullibg.png) repeat-x 0 100%;
+	padding:0 3px;
+}
+.IBLul li:hover{
+	text-shadow:0 0 4px #35b3ff;
+}
+.excom .InsobdotOut{
+	background-position:0 100%;
+	padding-left:17px;
+}
+.masC{
+	margin-bottom:7px;
+	position:relative;
+}
+.undN, .exitAllCom a{
+	text-decoration:none;
+}
+.undN:hover, .exitAllCom a:hover{
+	text-decoration:underline;
+}
+.masCOut{
+	margin:0 0  8px 15px;	
+}
+.masCOut .decUn{
+	color:#323637;	
+}
+.decUnTP{
+	color:#33baff !important;	
+}
+
+.outcomWin{
+	margin-top:8px;
+	position:relative;
+}
+.exitAllCom{
+	height:22px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	left:0;
+	background:url(../img/exitAllCom.png) repeat-x #bbdbf3;
+}
+.exitAllCom a{
+	color:#2c6ba3;
+	margin-left:13px;
+	padding-left:18px;
+	background:url(../img/spritethree.png) -387px -347px;
+}
+/**/
+.maincomout{
+	margin-right:7px;
+}
+.maincomin{
+	position:relative;
+	border-bottom:1px solid #ebebeb;
+	padding-top:10px;
+}
+.maincomin:hover .timeDM, .maincomin:hover .ansCom {
+	display:block;
+}
+.avaLog{
+	width:39px;
+	float:left;
+	margin-bottom:10px;
+}
+.avaLog img{
+	display:block;
+}
+.comtOut{
+	margin-left:45px;
+	margin-right:10px;
+}
+.userName .decBold{
+	font-weight:bold;
+	position:relative;
+	top:-4px;
+}
+.namld{
+	height:15px;
+}
+.agr{
+	overflow:hidden;
+	float:right;
+}
+.agr div{float:left;	margin-left:4px; cursor:pointer;}
+.nagr, .yagr{
+	width:13px;
+	height:13px;
+	background:url(../img/spritethree.png);
+}
+.nagr{
+	background-position:0 -77px;
+}
+.yagr{
+	background-position:-13px -77px;
+}
+.cagr{
+	background:#347a00;
+	border-radius:2px;
+	padding:0 3px;
+	color:#fff;
+	position:relative;
+	line-height:13px;
+}
+.cagr b{
+	background:url(../img/arrowsSprite.png) no-repeat -15px 0;
+	width:2px;
+	height:3px;
+	position:absolute;
+	left:-2px;
+	top:5px;
+}
+.cagrM{
+	background:#da1238;
+	border-radius:2px;
+	padding:0 3px;
+	color:#fff;
+	position:relative;
+	line-height:13px;	
+}
+.cagrM b{
+	background:url(../img/arrowsSprite.png) no-repeat -15px -3px;
+	width:2px;
+	height:3px;
+	position:absolute;
+	left:-2px;
+	top:5px;	
+}
+.cagrNull{
+	background:#767676;
+	border-radius:2px;
+	padding:0 3px;
+	color:#fff;
+	position:relative;
+	line-height:13px;	
+}
+.cagrNull b{
+	background:url(../img/arrowsSprite.png) no-repeat -15px -6px;
+	width:2px;
+	height:3px;
+	position:absolute;
+	left:-2px;
+	top:5px;	
+}
+.conMCT{
+	color:#474747;
+	padding-bottom:5px;
+}
+.dopMenu{
+	overflow:hidden;
+	line-height:23px;
+	min-height:23px;
+}
+.ansCom{
+	display:none;
+	cursor:pointer;
+	background:url(../img/spritethree.png) no-repeat 100% -323px;
+	float:left;
+	padding:0 14px 0 2px;
+}
+.timeDM{
+	display:none;
+	float:right;
+	font-size:11px;
+	color:#b4b4b4;
+	margin-left:20px;
+}
+.answerQ{
+	margin-left:25px;
+}
+.answerQ1{
+	margin-left:50px;
+}
+.answerQ2{
+	margin-left:75px;
+}
+.answerQ3{
+	margin-left:100px;
+}
+.answerQ4{
+	margin-left:125px;
+}
+.answerQ5{
+	margin-left:150px;
+}
+.answerQ6{
+	margin-left:175px;
+}
+.answerQ7{
+	margin-left:200px;
+}
+.answerQ8{
+	margin-left:225px;
+}
+.answerQ9{
+	margin-left:250px;
+}
+.answerQ10{
+	margin-left:275px;
+}
+.arrowQ{
+	width:11px;
+	height:11px;
+	background:url(../img/spritethree.png) no-repeat -26px -77px;
+	position:absolute;
+	left:-20px;
+	top:10px;
+}
+.outcomWin .as{
+	top:-2px;
+	right:-2px;
+	cursor:pointer !important;
+	z-index:99;
+}
+.outcomWin:hover .as{
+	display:block;
+}
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************************************/
+.WindowLike{
+	display:none;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+}
+.topPan{
+	padding:15px 8px 15px 20px;
+	position:relative;
+}
+.closeWindL{
+	width:22px;
+	height:22px;
+	background:url(../img/spritethree.png) no-repeat 0 -92px;
+	position:absolute;
+	right:8px;
+	top:12px;
+	cursor:pointer;
+}
+
+.outWinLScroll{
+	width:400px;
+	position:absolute;
+	top:37px;
+	bottom:0;
+	background:#cfc;
+	height:350px;
+}
+
+.WindowLike{
+	display:none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+	z-index:9999;
+}
+.inWinL{
+	width:995px;
+	margin:auto;
+	background:#fafafa;
+	position:relative;
+	top:50%;
+	left:-5px;
+	z-index:99;
+	box-shadow:0 0 8px #29b3ff, 0 0 6px #29b3ff;
+	height:500px;
+}
+.inWinL .scrollFrWp{
+	width:957px;
+	margin-top: -10px;
+}
+.inWinL .FriendScroll{
+	width:957px;
+	height:80%;
+}
+.inWinL  .FriendScroll .jspPane{
+	padding-left:0 !important;
+	width:957px !important;
+}
+.likeScrollWp{
+	padding:0 8px 0 20px;
+}
+.likeScroll{
+	overflow:hidden;
+}
+.likeScroll li{
+	width:123px;
+	float:left;
+	margin-right:36px;
+}
+.outImgLike{
+	width:117px;
+	height:116px;
+	border:3px solid #262d35;
+	position:relative;
+	border-radius:2px;
+	margin-bottom:5px;
+}
+.statOn{
+	width:7px;
+	height:7px;
+	position:absolute;
+	right:3px;
+	bottom:8px;
+}
+.inWinL .userStatsOut{
+	top:15px;
+}
+
+
+
+
+
+/**********************************************************************************************************************/
+.UserMenuClub .UserMenuLink{
+	padding:0 18px 0 38px;
+}
+.ProfilePag  .UserMenuLink{
+	padding:0 20px 0 40px;
+}
+/*Меню юзера*/
+
+.statProfile{
+	background-position:0 -683px;
+}
+.UserMenuDivActive .statProfile{
+	background-position:0 -714px;
+}
+.ProfilePag  .myFriend{
+	padding-left:44px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a{
+	background:url(../img/UserMenuLinkBG.png) no-repeat;
+}
+.ProfilePag .UserMenuDiv .more{
+	padding:0 25px 0 30px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a.UserMenuMoreLinkOne{
+	background-position:0 -745px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a.UserMenuMoreLinkOne:hover{
+	background-position:0 -776px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a.UserMenuMoreLinkTwo{
+	background-position:0 -807px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a.UserMenuMoreLinkTwo:hover{
+	background-position:0 -838px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a.UserMenuMoreLinkThree{
+	background-position:0 -869px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a.UserMenuMoreLinkThree:hover{
+	background-position:0 -900px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a.UserMenuMoreLinkFor{
+	background-position:0 -931px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a.UserMenuMoreLinkFor:hover{
+	background-position:0 -962px;
+}
+.ProfilePag .UserMenuDiv .hoverLink a{
+	padding-left: 28px;
+}
+.ProfilePag .hoverLink{
+	padding:0 8px;
+}
+
+
+
+
+
+
+
+
+/*Меню клуба*/
+.abClub{
+	background-position:-2px -373px;
+}
+.UserMenuDivActive  .abClub{
+	background-position:-2px -404px;
+}
+.myField{
+	background-position:-4px -0;
+}
+.UserMenuDivActive  .myField{
+	background-position:-4px -0;
+}
+.newsClub{
+	background-position:-2px -559px;
+}
+.UserMenuDivActive  .newsClub{
+	background-position:-2px -590px;
+}
+.UserMenuClub .compot{
+	padding-left:44px;
+	background-position:-2px -435px;
+}
+.UserMenuDivActive  .compot{
+	background-position:-2px -466px;
+}
+.UserMenuClub .myPhoto, .UserMenuDivActive  .myPhoto{
+	padding-left:39px;
+}
+.matchi{
+	padding-left:40px;
+	background-position:-2px -621px;
+}
+.UserMenuDivActive  .matchi{
+	padding-left:40px;
+	background-position:-2px -652px;
+}
+.UserMenuClub .tableCl{
+	padding-left:40px;
+	background-position:-2px -497px;
+}
+.UserMenuDivActive  .tableCl{
+	padding-left:40px;
+	background-position:-2px -528px;
+}
+.ClubBl{padding:10px 15px;}
+.vidBlOut{padding:10px 0;}
+.ClubBl .ClBlCon, .predZag{
+	padding:10px 0 0 0;
+	font:14px Arial, Sans-serif;
+	color:#2d2d2d;
+}
+.moreCLBL{
+	font-size:30px;
+	color:#4283ae;
+	line-height:1px;
+	height:5px;
+	padding-top:5px;
+	padding-bottom:20px;
+	font-weight:bold;
+}
+.vidBlOut .moreCLBL{
+	padding-top:10px;
+}
+.ClBlCon img{
+	max-width:100%;
+	margin:3px 0;
+	border:3px solid #bababa;
+}
+.absimg{
+	position:absolute;
+	right:15px;
+	top:10px;
+}
+.fcClubPag .UserMenu {
+	top: -32px;
+}
+.imgchoice li{
+	float:left;
+	margin-right:22px;
+	width:169px;
+}
+.flaPl{
+	color:#fff;
+	background:url(../img/spritethree.png) no-repeat -54px -82px;
+	line-height:25px;
+	width:205px;
+	padding-left:15px;
+	position:relative;
+	left:-13px;
+	position:relative;
+}
+.fcZagCBokz, .fcZagCBok{
+	top:1px;
+	width:23px;
+	height:23px;
+	top:1px;
+	position:absolute;
+	background-image:url(../img/spritethree.png);
+
+}
+.fcZagCBok{
+	background-position:-292px -55px;
+	right:42px;
+}
+.fcZagCBokz{
+	background-position:-319px -55px;
+	right:15px;
+}
+.flaPl span{
+	float:right;
+	margin-right:15px;
+}
+.fcClubPag .fcZag{
+	padding:7px 0;
+}
+.funclubis, .invClub, .ConectClub{
+	padding:2px 0;
+	padding-left:30px;
+	text-decoration:none !important;
+	background:url(../img/UserMenuLinkBG.png) no-repeat;
+}
+.funclubis{
+	background-position:-3px -992px;
+}
+.funclubis + span{
+	color:#fff;
+	float:right;
+	background:#004e93;
+	padding:0 3px;
+	border-radius:2px;
+}
+.invClub{
+	background-position:-4px -1024px;
+}
+.ConectClub{
+	background-position:-8px -1054px;
+	color:#00ff66 !important;
+}
+.ConectClub:hover{
+	background-position:-8px -1147px;
+	color:#fff !important;
+}
+.admClub{
+	margin-bottom:10px;
+}
+.admClub h2{
+	cursor:default;
+}
+.admClub .mitZag{
+	background:none;
+}
+.admClub ul{
+	padding:10px;
+}
+.admClub ul li h6{
+	padding:0;
+	border-bottom:1px solid #cecece;
+	border-top:1px solid #757575;
+	text-align:right;
+	color:#757575;
+	padding-right:9px;
+	background:url(../img/UserMenuLinkBG.png) no-repeat 100% -779px;
+}
+.ClubAs .fcClubWind{
+	float:none;
+}
+.sostavUl{
+	overflow:hidden;
+	padding-bottom:15px;
+}
+.sostavUl li{
+	width:40%;
+}
+.sostavUl li, .vidUl li{
+	height:135px;
+	float:left;
+	position:relative;
+}
+.vidUl li{
+	width:232px;
+	height:170px;
+	margin-right:37px;
+	margin-top:20px;
+}
+.sostavUlPlus{
+	width:0;
+	height:0;
+	opacity:0;
+	position:absolute;
+}
+.sostavUlPlusD{
+	width:102px;
+	height:119px;
+	font-size:55px;
+	line-height:125px;
+	text-align:center;
+	font-weight:bold;
+	color:#a7c8df;
+	border:3px dashed #a7c8df;
+	cursor:pointer;
+	float:left;
+}
+.sosD{
+	margin-top:8px;
+}
+.sostavUl li span{
+	display:block;
+	position:absolute;
+	left:3px;
+	bottom:5px;
+	font:bold 24px Arial, Sans-serif;
+	color:#fff;
+	background:rgba(8, 90, 157, 0.8);
+	padding:0 10px;
+}
+.sostavUl li img{
+	width:102px;
+	height:119px;
+	border:3px solid #bababa;
+	float:left;
+	margin-top:8px;
+}
+.afterImage{
+	float:left;
+	margin-left:10px;
+	line-height:25px;
+	max-width:185px;
+	white-space:nowrap;
+	overflow:hidden;
+	margin-top:27px;
+}
+.afterImage h5{
+	color:#a7c8df;
+	margin-top:38px;
+}
+.afterImage h4{
+	color:#2d2d2d;
+}
+.afterImage p{
+	color:#787878;
+}
+.searchVid{
+	height:21px;
+	position:relative;
+	float:right;
+	margin-right:20px;
+}
+.searchVid input{
+	outline:0;
+	border:1px solid #dfdfdf;
+	border-radius:3px;
+	background-color:#fff;
+	color:#9d9d9d;
+	width:179px;
+	height:17px;
+	padding-right:15px;
+	padding-left:7px;
+}
+.searchVid input.searchImg{
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:12px;
+	right:11px;
+	border:none;
+	background-color:transparent;
+	top:6px;
+	right:-10px;
+}
+
+
+.vidUl .sostavUlPlusD{
+	width:224px;
+	height:162px;
+	font-size:70px;
+	line-height:162px;
+	color:#a7c8df;
+	border:4px dashed #a7c8df;
+	float:left;
+}
+
+.vidUl .sostavUlPlusD span{
+	position:absolute;
+	font-size:12px;
+	line-height:12px;
+	bottom:45px;
+	left:4px;
+	width:224px;
+	text-align:center;
+}
+.vidUl li img{
+	border:1px solid #4b4b4b;	
+} 
+.vidUl h5{
+	position:relative;	
+}
+ li div.PlayVidUs{
+	position:absolute;	
+}
+.vidUl .authorIn{
+	color:#595959;
+	border-top:1px dashed #919191;
+	margin:0;
+	margin-top:2px;
+	padding-top:2px;
+}
+.vidUl .see {
+	background-position: -2px -48px;
+	background-image: url(../img/likeVS.png);
+}
+.vidUl .LPinNB {
+	float:right;
+}
+.vidUl .LPinNB a{
+	color:#595959;
+}
+.albVid{
+	padding:10px 0;
+	padding-bottom:13px;
+}
+.albVid .sostavUlPlusD{
+	float:none;
+	width:92px;
+	height:100px;
+	line-height:92px;
+	position:relative;
+	border-width:4px;
+}
+.albVid .sostavUlPlusD span, .photobl .sostavUlPlusD span{
+	position:absolute;
+	width:92px;
+	left:0;
+	bottom:8px;
+	font-size:12px;
+	line-height:12px;
+}
+.albVid li{
+	float:left;
+	width:120px;
+	margin-right:90px;
+	overflow:hidden;
+	margin-top:10px;
+}
+.albVid img{
+	display:block;
+}
+.albVid a{
+	color:#3992c5;
+	width:120px;
+}
+.photobl{
+	padding:10px 0 5px;
+}
+.photobl li{
+	width:138px;
+	margin-right: 65px;
+}
+.photobl img{
+	max-width:132px;
+	margin:9px 0;
+	border:3px solid #bababa;	
+}
+.photobl .sostavUlPlusD{
+	width:130px;
+	height:130px;
+	border-width:4px;
+	margin-top:9px;
+	position:relative;
+}
+.photobl .sostavUlPlusD span{
+	width:100%;
+	bottom:30px;
+}
+.phPag .searchVid{
+	margin-right: 10px;
+}
+.phAlb{
+	padding-right:0;
+	padding-left:0;
+}
+.phAlb li{
+	margin-right:30px;
+	background:#cfc;
+	padding:7px 17px 0 17px;
+	background:url(../img/bgdivuli.png) no-repeat center top;
+}
+.phAlb li:first-child{
+	background:transparent;
+}
+.phAlb li > img + a{
+	color:#1e89c1;
+	position:relative;
+	top:-6px;
+	left:7px;
+}
+.phAlb .NBZag{
+	padding-left:17px;
+}
+#container .newsPag  .LMdiv1{
+	background:url(../img/LoaderMenu.png) no-repeat -2px -270px;
+}
+#container .newsPag .LMActive .LMdiv1{
+	background:url(../img/LoaderMenu.png) no-repeat -2px -297px;
+}
+.newsPagCh .agre{
+	width:135px;
+}
+.newsPagCh .agre p{
+	width:auto;
+	padding:0 6px;
+	line-height:27px;
+}
+.newsPag .newsBLOut{
+	padding-bottom:10px;
+}
+.newsBLin{
+	width:420px;
+	height:171px;
+	float:right;
+	position:relative;
+	padding-bottom:21px;
+	overflow:hidden;
+}
+.newsBLOut img{
+	margin:0;
+	max-width:314px;
+}
+.newsBLin h2{
+	color:#000;
+	font-size:14px;
+}
+.newsBLin p{
+	font-size:12px;
+}
+.newsBLin .date{
+	font-size:12px;
+}
+.newsBLin .likePanel{
+	position:absolute;
+	width:100%;
+	bottom:0;
+	left:0;
+	border-radius:0 0 3px 0;
+}
+#container .ZagPag h2{
+	color:#000;
+}
+#container .ClBlConIn{
+	padding:0;
+}
+.LikePanelUsmar{
+	margin:5px 0;
+}
+.conectClub{
+	padding-bottom:10px;
+}
+.newsTape .tapeUsCon{
+	margin:0;
+}
+.questCon h2{
+	font-weight:bold;
+	font-size:14px;
+	color:#474747;
+	padding-bottom:5px;
+}
+.answerCont dd{
+	margin-top:3px;
+	width:423px;
+	height:16px;
+	border:1px solid #7d7d7d;
+	background:#a2a2a2;
+	overflow:hidden;
+	position:relative;
+}
+.answerCont dt{
+	margin-top:5px;
+}
+.answerCont dd div{
+	height:16px;
+	background:#01699f;
+}
+.answerCont dd span{
+	position:absolute;
+	left:2px;
+	top:2px;
+	color:#fff;
+}
+.answerCont dd b{
+	position:absolute;
+	right:2px;
+	top:2px;
+	font-weight:normal;
+	color:#fff;
+}
+.showMore{
+	border:1px solid #c5c5c5;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	color:#acacac;
+	font-size:18px;
+	background:url(../img/showMorebg.png) repeat-x;
+	margin-top:10px;
+	cursor:pointer;
+	border-radius:3px;
+}
+.UserProfile{
+	height:375px;
+	width:212px;
+	border:1px solid #2a343f;
+	position:absolute;
+	background:url(../img/usProfilebg.png);
+	left:0;
+	top:-113px;
+	overflow:hidden;
+}
+.UserProfileIn{
+	width:100%;
+	height:100%;
+	border-left:1px solid rgba(92, 98, 106, 0.5);
+	border-top:1px solid rgba(92, 98, 106, 0.5);
+	border-radius:4px;
+	z-index:100;
+	position:relative;
+}
+.UserProfileIAva{
+	width:192px;
+	height:192px;
+	border:5px solid #262d35; /* #262d35 */
+	margin:auto;
+	margin-top:5px;
+	background:#ccc;
+	overflow:hidden;
+	position:relative;
+}
+.UserProfileIAva span{
+	position:absolute;
+	right:4px;
+	bottom:4px;
+	width:12px;
+	height:13px;
+}
+.UserProfileIAva > img{
+	width:100%;
+}
+.UserProfileIn h2{
+	color:#fff;
+	padding: 10px 15px 0;
+}
+.UserProfileIn p{
+	color:#cbcfd4;
+	padding:0 15px;
+	margin-bottom:10px;
+}
+.UserProfileIn ul{
+	background:url(../img/fcZagplash.png) repeat-x 0 0;
+	margin-top:5px;
+	margin:0 10px;
+}
+.UserProfileIn ul li{
+	background:url(../img/fcZagplash.png) repeat-x 0 100%;
+}
+.UserProfileIn ul li a{
+	display:block;
+	color:#aad2f1;
+	padding:8px 0 8px 23px;
+	text-decoration:none;
+	background:url(../img/UserMenuLinkBG.png) no-repeat;
+}
+.UserProfileIn ul li.LinkO a{
+	background-position:-7px -1018px;
+}
+.UserProfileIn ul li.LinkO a{
+	background-position:-7px -1018px;
+}
+.UserProfileIn ul li.LinkT a{
+	background-position:-7px -1077px;
+}
+.UserProfileIn ul li a:hover{
+	color:#fff;
+}
+.funclubis:hover, .invClub:hover{
+	color: #33baff;
+}
+
+
+
+
+/**************************************************************/
+.outshell{
+	width:1024px;
+	margin:auto;
+	overflow:hidden;
+	position:absolute;
+	top:180px;
+	left:50%;
+	margin-left:-512px;
+}
+.left_shell{
+	width:47%;
+	float:left;
+}
+.left_shell > div:first-child{
+	width:316px;
+	height:362px;
+	background:url(../img/logoHome.png);
+}
+.left_shell > p{
+	width:232px;
+	height:44px;
+	margin-left:75px;
+	background:url(../img/spritethree.png) 0 -123px;
+	margin-top:20px;
+	cursor:pointer;
+}
+.left_shell > p:active{
+	background-position:0 -167px;
+}
+.right_shell{
+	width:419px;
+	height:419px;
+	float:right;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.right_shell > form{
+	padding-top:110px;
+	position:relative;
+	font:12px Arial;
+}
+.right_shell > form > p{
+	width:314px;
+	height:38px;
+	margin:0 auto;
+	background:#e3eceb;
+	box-shadow:inset 1px 1px 5px #929b9d;
+	border:1px solid #85aaa7;
+	overflow:hidden;
+	position:relative;
+}
+.right_shell > form > p.invalid{
+	border-color:rgb(255, 76, 78);
+	box-shadow:inset 1px 1px 5px rgba(255, 76, 78, 0.9);
+}
+.right_shell > form > p > b{
+	float:left;
+	width:11px;
+	height:11px;
+	background:url(../img/spritethree.png) -356px -61px;
+	margin:14px 0 0 11px;
+}
+.right_shell > form > p:first-child{
+	margin-bottom:12px;
+}
+.right_shell > form > p:first-child > b{
+	background:url(../img/spritethree.png) -345px -61px;
+}
+.right_shell > form > p > input{
+	float:left;
+	text-align:center;
+	color:#677172;
+	font-size:13px;
+	width:275px;
+	margin:9px 0 0 5px;
+	background:transparent;
+	border:0;
+	outline:0;
+}
+.right_shell > form > div, .right_shell > form > h5{
+	width:314px;
+	margin:15px auto;
+	overflow:hidden;
+	color:#fff;
+	text-shadow:0 1px 0 #496d6a;
+}
+.right_shell > form > div > p{
+	float:left;
+	color:#fff;
+	line-height:25px;
+}
+.right_shell > form > div > p > b{
+	float:left;
+	width: 25px;
+	height: 25px;
+	background: url(../img/spriteThree.png) no-repeat 100% 0;
+	cursor: pointer;
+	margin-right:3px;
+}
+.right_shell > form > div > a{
+	float:right;
+	color:#10beff;
+	font:12px Arial;
+	line-height:25px;
+}
+.right_shell > form > div > input{
+	position:absolute;
+	top:-5200px;
+}
+.right_shell > form > span{
+	position:absolute;
+	top:248px;
+	left:197px;
+	color:#9ac3bf;
+	text-shadow:0 1px 0 #496d6a;
+}
+.right_shell > form > h5,  .regis_wind > div  > h5{
+	margin-top:33px;
+	line-height:35px;
+	overflow:visible;
+}
+.right_shell > form > h5 > span, .regis_wind > div  > h5 > span{
+	float:left;
+	margin-left:18px;
+}
+.soc a, .soc > div{
+	float:left;
+	width:37px;
+	height:36px;
+	background:url(../img/spritethree.png);
+	margin-left:7px;
+	opacity:0.8;
+}
+.soc a:hover, .soc > div:hover{
+	opacity:1;
+}
+.soc > a.soc_1{
+	background-position:0 -211px;
+}
+.soc > a.soc_2{
+	background-position:-37px -211px;
+}
+.soc > a.soc_3{
+	background-position:-75px -211px;
+}
+.soc > a.soc_4{
+	background-position:-113px -211px;
+}
+.soc > div{
+	background-position:-224px -211px;
+	cursor:pointer;
+	position:relative;
+}
+.right_shell > form > h5 > div > div{
+	display:none;
+	left:0;
+	position:absolute;
+	top:35px;
+}
+.right_shell > form > h5 > div:hover > div{
+	display:block;
+}
+.right_shell > form > h5  .soc_5, .right_shell > form > h5  .soc_6{
+	margin:7px 0 0 0;
+}
+.soc_5{
+	background-position:-150px -211px;
+}
+.soc .soc_6{
+	background-position:-187px -211px;
+	top:80px;
+}
+.soc  a.soc_5{
+	background-position:-150px -211px;
+}
+.right_shell > form > input{
+	width:111px;
+	height:43px;
+	border:0;
+	outline:0;
+	background:url(../img/spritethree.png) -234px -123px;
+	cursor:pointer;
+	margin:25px 0 0 159px;
+}
+.right_shell > form > input:active{
+	background-position: -234px -167px;
+}
+.home_footer{
+	margin:auto;
+	width:575px;
+	font:12px Arial;
+	position:absolute;
+	left:50%;
+	margin-left:-287px;
+	bottom:0;
+}
+.home_footer > ul{overflow:hidden;}
+.home_footer > ul > li{
+	float:left;
+	padding:0 16px;
+	position:relative;
+}
+.home_footer > ul > li > a{
+	color:#fff;
+	text-shadow:-1px 1px 0 #1c280d;
+	text-decoration:none;
+}
+.home_footer > ul > li > a:hover{
+	text-decoration:underline;
+}
+.home_footer > ul > li > b, .home_footer > div > p > b{
+	position:absolute;
+	right:0;
+	width:1px;
+	border-right:1px solid #000;
+	height:15px;
+	float:left;
+	background:#fff;
+	opacity:0.3;
+}
+.home_footer > div {
+	color:#fff;
+	overflow:hidden;
+	margin-left:135px;
+}
+.home_footer > div > p{
+	position:relative;
+	float:left;
+	padding:15px 16px;
+}
+.home_footer > div > p > a{
+	color:#fff;
+	text-decoration:none;
+}
+.home_footer > div > p > a:hover{
+	text-decoration:underline;
+}
+
+/*ночь*/
+.night .right_shell{
+	background:url(../img/regisWinBgNight.png);
+}
+.night .right_shell > form > p{
+	background:rgba(0,0,0, 0.9);
+	box-shadow:inset 1px 1px 5px #000;
+	border-color:#517c7b;
+}
+
+.night .right_shell > form > p.invalid{
+	border-color:rgb(255, 76, 78);
+	box-shadow:inset 1px 1px 5px rgba(255, 76, 78, 0.9);
+}
+.night .right_shell > form > p{
+	background:rgba(0,0,0, 0.9);
+	box-shadow:inset 1px 1px 5px #000;
+	border-color:#517c7b;
+}
+
+.night .right_shell > form > p{
+	background:rgba(0,0,0, 0.9);
+	box-shadow:inset 1px 1px 5px #000;
+	border-color:#517c7b;
+}
+.night_layer{
+	display:none;
+}
+#paralax{
+   position:relative;
+   overflow:hidden;
+   width:2000px;
+}
+.paralax-viewport {
+	position: relative;
+	overflow: hidden;
+}
+.paralax-layer {
+	position: absolute;
+}
+
+
+
+
+/**/
+.registration{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	min-width:1024px;
+	background:transparent;
+	z-index:999;
+	overflow:auto;
+} 
+.in_registation{
+	position:relative;
+	min-height:100%;
+	overflow:hidden;
+}
+.regisHide{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.9;
+}
+.regis_wind{
+	width:931px;
+	height:427px;
+	background:url(../img/regis_Win.png) no-repeat center top;
+	position:relative;
+	margin:auto;
+	padding:155px 0 0 165px;
+	font:16px Arial, sans-serif;
+	color:#b9c7da;
+	overflow:hidden;
+}
+.step_1{
+	overflow:hidden;
+	height:360px;
+	position:relative;
+}
+.step_1 > button{
+	position:absolute;
+	right:165px;
+	bottom:2px;
+	width:111px;
+	height:43px;
+	cursor:pointer;
+	background:url(../img/spritethree.png) -264px -256px;
+	border:none;
+}
+.step_1 > button:active{
+	background-position:-264px -212px;
+}
+.step_1 > div > div{
+	float:left;
+	width:48%;
+	position:relative;
+	margin:13px 0 10px;
+}
+.step_1 > div > div:first-child{
+	width:40%;
+}
+.step_1 > div > div > span, .step_2 > div > span, .step_2 > div > input{
+	float:left;
+	line-height:41px;
+	width:140px;
+	text-align:right;
+	margin-right:7px;
+}
+.step_1 > div > div:first-child > span{
+	width:70px;
+}
+.step_1 > div > div > p, .step_2 > div > div, .step_2 h6 > p{
+	float:left;
+	height:39px;
+	width:248px;
+	border:1px solid #273538;
+	background:#010405;
+}
+.step_1 > div > div.invalid > p{
+	border-color:#520607 !important;
+}
+.step_1 > div > div.invalid > b, .step_1 > div > div.correctly > b{
+	float:left;
+	width:34px;
+	height:41px;
+	background:url(../img/spritethree.png) -334px -80px;
+}
+.step_1 > div > div.invalid > p{
+	border-color:#520607;
+}
+.step_1 > div > div.correctly > p{
+	border-color:#1a5907;
+}
+.step_1 > div > div.invalid > b{
+	float:left;
+	width:34px;
+	height:41px;
+	background:url(../img/spritethree.png) -334px -80px;
+}
+.step_1 > div > div.correctly > b{
+	background-position:-299px -80px;
+}
+.step_1 > div > div > p > input, .step_2 > div > div > span, .step_2 > div > div > div > input{
+	color:#aaeadf;
+	font-size:16px;
+	width:90%;
+	margin:9px 5% 0;
+	border:0;
+	background:transparent;
+}
+.step_2 > div > div > div > input{
+	color:#1e2623;
+}
+.step_1 > span{
+	display:block;
+	margin:16px 38px;
+	color:#808a97;
+}
+.regis_wind > .step_1  > h5{
+	margin-top:19px;
+	padding-left:60px;
+	color:#6e7783;
+	overflow:hidden;
+}
+.step_1 > h5 > p{
+	width:310px;
+	float:left;
+	line-height:12px;
+	font-size:12px;
+	margin:6px 7px;
+}
+.step_2 {
+	position:relative;
+	height:360px;
+	top:150px;
+}
+.overlap_1, .overlap_2{
+	display:none;
+	position:absolute;
+	left:0;
+	background:url(../img/regis_Win.png) no-repeat;
+	height:3px;
+	width:801px;
+	left:0;
+}
+.overlap_1{
+	background-position: -160px -303px;
+	top:153px;
+}
+.overlap_2{
+	background-position: -160px -393px;
+	top:242px;
+}
+.step_2 > div{
+	position:relative;
+	z-index:9;
+	padding:1px 0;
+	height:41px;
+	margin-bottom:27px;
+}
+.step_2 > div > div{
+	position:relative;
+	width:366px;
+	cursor:pointer;
+}
+.step_2 > div > div > span{
+	display:block;
+	margin-top:10px;
+}
+.step_2 > div > span{
+	width:263px;
+}
+.step_2 > div > div > b{
+	position:absolute;
+	width:20px;
+	height:39px;
+	right:0;
+	top:0;
+	background:url(../img/spritethree.png) -346px -123px;
+}
+.step_2 > div > ul{
+	display:none;
+	position:absolute;
+	top:39px;
+	width:347px;
+	left:270px;
+	background:#010405;
+	padding:5px 0;
+	border:1px solid #242d33;
+	border-top:0;
+	cursor:pointer;
+}
+
+.step_2 > div > ul > li{
+	line-height:26px;
+	padding:0 20px;
+	font-size:14px;
+}
+.step_2 > div > ul > li:hover{
+	background:#242d33;
+	color:#aaeadf;
+}
+.step_2 > div > div > span{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.step_2 > div > div > input{
+	position:absolute;
+}
+.step_2 > div > font{
+	float:left;
+	color:#ed3d3d;
+	line-height:41px;
+	padding:0 5px;
+	font-size:24px;
+}
+.step_2 > p{
+	font-size:12px;
+	color:#fff;
+	padding-left:205px;
+}
+.step_2 > p > font{
+	color:#ed3d3d;
+}
+.step_2 > input{
+	display:none;
+	position:absolute;
+	right:165px;
+	bottom:2px;
+	width:111px;
+	height:43px;
+	border:0;
+	outline:0;
+	background:url(../img/spritethree.png) -38px -248px;
+	cursor:pointer;
+}
+.step_2 > input:active{
+	background-position: -151px -248px;
+}
+.regis_wind > a{
+	position:absolute;
+	width:25px;
+	height:25px;
+	background:url(../img/spritethree.png) -350px -181px;
+	right:50px;
+	top:0;
+}

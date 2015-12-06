@@ -8,6 +8,8 @@ use Yii;
  * This is the model class for table "f_clubs".
  *
  * @property integer $id
+ * @property integer $id_country
+ * @property string $city
  * @property string $name
  * @property string $img
  * @property string $inform
@@ -29,10 +31,10 @@ class Clubs extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name'], 'required'],
+            [['id_country', 'city', 'name'], 'required'],
+            [['id_country', 'status'], 'integer'],
             [['inform'], 'string'],
-            [['status'], 'integer'],
-            [['name'], 'string', 'max' => 255]
+            [['city', 'name', 'img'], 'string', 'max' => 255]
         ];
     }
 
@@ -43,11 +45,30 @@ class Clubs extends \yii\db\ActiveRecord
     {
         return [
             'id' => Yii::t('app', 'ID'),
-            'name' => Yii::t('app', 'Nomi'),
-            'img' => Yii::t('app', 'Photo'),
-            'inform' => Yii::t('app', 'Information'),
+            'id_country' => Yii::t('app', 'Id Country'),
+            'city' => Yii::t('app', 'City'),
+            'name' => Yii::t('app', 'Name'),
+            'img' => Yii::t('app', 'Img'),
+            'inform' => Yii::t('app', 'Inform'),
             'status' => Yii::t('app', 'Status'),
         ];
     }
 
+    public static function getClub($id)
+    {
+        if (($model = Clubs::findOne($id)) !== null) {
+            return $model;
+        } else {
+            throw new \yii\web\NotFoundHttpException('The requested post does not exist.');
+        }
+    }
+
+    public static function getClubName($id)
+    {
+        if (($model = Clubs::findOne($id)) !== null) {
+            return $model->name;
+        } else {
+            throw new \yii\web\NotFoundHttpException('The requested post does not exist.');
+        }
+    }
 }
