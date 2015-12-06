@@ -21,8 +21,10 @@
         "2amigos/yii2-ckeditor-widget" : "~1.0",
         "2amigos/yii2-date-picker-widget" : "~1.0",
         "kartik-v/yii2-widget-fileinput": "@dev",
-        "dektrium/yii2-user": "*",
-        "dektrium/yii2-rbac": "dev-master"
+        "dektrium/yii2-user": "0.9.*@dev",
+        "dektrium/yii2-rbac": "dev-master",
+        "pendalf89/yii-commentator": "dev-master",
+        "arogachev/yii2-excel": "^0.1.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
